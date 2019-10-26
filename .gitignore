@@ -8,6 +8,11 @@
 *.obj
 *.exp
 *.ilk
+*.lib
+*.log
+*.pdb
+*.idb
+*.htm
 
 # Compiled files
 *.ncb
