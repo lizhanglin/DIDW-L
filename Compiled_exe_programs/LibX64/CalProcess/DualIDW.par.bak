@@ -9,9 +9,9 @@
   <bUseAnisotropicDistance value="0" />
   
   <!-- Default value of sample-to-estimate/data-to-unknown(D2U) Power  -->
-  <dPowerSample2Est value= "3.3" />
+  <dPowerSample2Est value= "2.4" />
   <!-- Default value of sample-to-sample/data-to-data(D2D) Power    -->
-  <dPowerSample2Sap value= "4.4" />
+  <dPowerSample2Sap value= "0" />
 
   <!-- Global OPT? 1- yes; 0- no; for [D2U_power; D2D_power;] -->
   <nOptType_G value="0 0" />

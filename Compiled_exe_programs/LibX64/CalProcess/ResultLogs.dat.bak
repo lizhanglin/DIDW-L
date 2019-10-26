@@ -1,3 +1,54 @@
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/26, 14:05:29
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_EST
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	0,0
+dPowerSample2Est = 	3.3	dPowerSample2Sap = 	4.4
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	3.3	4.4	-10.9591	150.135	-490.871	573.579	-10.9591	111.159	150.439	0.800791	39264.9	0.88124	62673.6	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	261.597	dPowerS-U:	3.3	dPowerS-S:	4.4
+Error_Variance:	150.135	GetMTE:-10.9591	Error_Min:	-490.871	Error_Max:	573.579
+GetMAE:	111.159	GetRMSE:	150.439	GetCC	:0.800791	GetCV	:39264.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 111.159		NRMSE = 0.600446		RMSE = 150.439	CR = 0.800791
+		111.159		0.600446		150.439	0.800791
+------------------Optimization Ends!--------current time: 2019/10/26, 14:05:29,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/26, 14:05:48
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_EST
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	0,0
+dPowerSample2Est = 	2.4	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	2.4	0	21.4217	153.959	-474.741	626.955	21.4217	117.777	155.344	0.789344	40342.9	0.917235	60630.8	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	273.122	dPowerS-U:	2.4	dPowerS-S:	0
+Error_Variance:	153.959	GetMTE:21.4217	Error_Min:	-474.741	Error_Max:	626.955
+GetMAE:	117.777	GetRMSE:	155.344	GetCC	:0.789344	GetCV	:40342.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 117.777		NRMSE = 0.620026		RMSE = 155.344	CR = 0.789344
+		117.777		0.620026		155.344	0.789344
+------------------Optimization Ends!--------current time: 2019/10/26, 14:05:48,	
+processed time:0(Mins)
+
+
 ++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/26, 14:07:58
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V

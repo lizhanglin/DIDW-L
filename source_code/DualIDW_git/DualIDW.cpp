@@ -15,15 +15,17 @@
 //
 //!-----------------------------------------------------------------------
 //!
-//!    DUAL INVERSE DISTANCE WEIGHTING
-//!    ************************************************************************
+//!		DUAL INVERSE DISTANCE WEIGHTING
+//!		************************************************************************
 //!
-//!	   This plug-in implements a systematical enhancement of IDW to account both for the 
-//!	   accounts both for the clustering of nearby samples and for the distance to the unknown location, flexibly.
+//!		This plug-in implements a systematical enhancement of IDW to account both for the 
+//!		accounts both for the clustering of nearby samples and for the distance to the unknown location, flexibly.
 //!
 //!		MODIFIED FROM:
 //!		The Stanford Geostatistical Modeling Software (SGeMS, url: http://sgems.sourceforge.net)
+//!
 //!-----------------------------------------------------------------------
+
 
 #include "basicStatistics.h"
 
