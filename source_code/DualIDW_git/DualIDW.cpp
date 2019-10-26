@@ -9,9 +9,7 @@
 //! packaging of this file.
 
 //! Title of Paper Submitted: 
-// Dual inverse distance weighting. Part II:Theory and applications with locally varying exponents (IJGIS-2018-0621)
-// Dual inverse distance weighting. Part I: Theory and applications with globally constant exponents (IJGIS-2018-0622)
-
+//	Dual inverse distance weighting interpolation with locally varying exponents
 //
 //
 //
