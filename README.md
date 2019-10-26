@@ -1,1 +1,1 @@
-# A DIDW-L implementation using C++. A
+# A DIDW-L implementation using C++. 
