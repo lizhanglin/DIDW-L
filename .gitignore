@@ -13,6 +13,7 @@
 *.pdb
 *.idb
 *.htm
+*.__*
 
 # Compiled files
 *.ncb
