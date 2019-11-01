@@ -3,6 +3,15 @@
  <Geometry size="188"/>
  <Properties>
   <GsTLGridProperty filepath="properties/property__V.sgems" type="Continuous" name="V"/>
+  <GsTLGridProperty filepath="properties/property__V_EST.sgems" type="Continuous" name="V_EST"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_AbsError.sgems" type="Continuous" name="V_EST_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_PowerS2S.sgems" type="Continuous" name="V_EST_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_PowerS2U.sgems" type="Continuous" name="V_EST_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_S2sDisMean.sgems" type="Continuous" name="V_EST_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_S2sDisVar.sgems" type="Continuous" name="V_EST_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_SampNum.sgems" type="Continuous" name="V_EST_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_TrueError.sgems" type="Continuous" name="V_EST_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__V_EST_krig_var.sgems" type="Continuous" name="V_EST_krig_var"/>
  </Properties>
  <Regions/>
  <PropertyGroups/>

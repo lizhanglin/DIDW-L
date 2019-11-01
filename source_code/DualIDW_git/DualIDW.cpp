@@ -2000,6 +2000,26 @@ double DualIDW::cal_kring_variance_by_weights0(
 		// if global OPT is applied, output the result and re-estimate based on the opted result.
 		if(interpolation_result_index.size() > 2)
 		{
+			//////////////////////[2019-10-27,11:03 lizhanglin]//////////////+
+			//TODO: also output the worst results 
+
+			temp_iam_inx = interpolation_result_index.rbegin()->second;
+
+			this->_cout_file <<"worst powers:" << std::endl;
+
+			this->_cout_file 
+				<<"dPowerSample2Est:"<< temp_iam_inx.dPowerSample2Est
+				<<"dPowerSample2Sap:"<< temp_iam_inx.dPowerSample2Sap
+				<< std::endl;
+
+			DualIDW::optPars_.dPowerSample2Est = temp_iam_inx.dPowerSample2Est;
+			DualIDW::optPars_.dPowerSample2Sap = temp_iam_inx.dPowerSample2Sap;
+
+			// execute the estimation with the optimized results 
+			EstimationWithAllPoints(simul_grid, var_prop, &(interpolation_accuracy_measurement_inx()), true);
+			
+			//////////////////////[2019-10-27,11:03 lizhanglin]//////////////-
+
 			// only the best POWER is adopted 
 			temp_iam_inx = interpolation_result_index.begin()->second;
 

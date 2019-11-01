@@ -14,6 +14,7 @@
 *.idb
 *.htm
 *.__*
+*.dbg
 
 # Compiled files
 *.ncb
