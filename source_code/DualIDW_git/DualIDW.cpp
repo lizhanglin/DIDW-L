@@ -9,7 +9,7 @@
 //! packaging of this file.
 
 //! Title of Paper Submitted: 
-//	Dual inverse distance weighting interpolation with locally varying exponents
+//	Dual inverse distance weighting interpolation using locally varying exponents
 //
 //
 //
