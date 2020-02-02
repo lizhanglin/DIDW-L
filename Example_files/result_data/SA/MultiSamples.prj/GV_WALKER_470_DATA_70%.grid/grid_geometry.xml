@@ -12,6 +12,24 @@
   <GsTLGridProperty filepath="properties/property__LG-DIDW_70%_TrueError.sgems" type="Continuous" name="LG-DIDW_70%_TrueError"/>
   <GsTLGridProperty filepath="properties/property__LG-DIDW_70%_krig_var.sgems" type="Continuous" name="LG-DIDW_70%_krig_var"/>
   <GsTLGridProperty filepath="properties/property__V.sgems" type="Continuous" name="V"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7.sgems" type="Continuous" name="V_DIDW-GG_EST_D7"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_AbsError.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_PowerS2S.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_PowerS2U.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_S2sDisMean.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_S2sDisVar.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_SampNum.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_TrueError.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-GG_EST_D7_krig_var.sgems" type="Continuous" name="V_DIDW-GG_EST_D7_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7.sgems" type="Continuous" name="V_DIDW-LG_EST_D7"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_AbsError.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_PowerS2S.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_PowerS2U.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_S2sDisMean.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_S2sDisVar.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_SampNum.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_TrueError.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__V_DIDW-LG_EST_D7_krig_var.sgems" type="Continuous" name="V_DIDW-LG_EST_D7_krig_var"/>
  </Properties>
  <Regions/>
  <PropertyGroups/>

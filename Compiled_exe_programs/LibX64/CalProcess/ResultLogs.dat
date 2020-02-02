@@ -1,11 +1,1120 @@
-// 补充 DIDW-GG 情况下 10%, 20%,..., 100% 个数据对应的计算结果
-首先是要通过交叉验证 找到最优幂指数
+// DIDW-LL -based SA for multiple sample datasets
+// SDIDW-LL -based SA for multiple sample datasets
+// OK -based SA for multiple sample datasets
+// IDW-L -based SA for multiple sample datasets
+// DIDW-LG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+// DIDW-LG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents
+// DIDW-GG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+// DIDW-GG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents
 
-
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 16:09:18
+// DIDW-LL -based SA for multiple sample datasets
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:39:49
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
-sim_data = GV_WALKER_470_DATA_10%.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D1
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	93.5728	243.346	-645.97	1015.81	93.5728	193.696	260.489	0.585422	41700.9	0	113309	
+
+Number of estimates:	500	MeanS2S_DisVariance:	2.91088	MeanS2S_DisMean:	12.7726
+score:	454.185	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	243.346	GetMTE:93.5728	Error_Min:	-645.97	Error_Max:	1015.81
+GetMAE:	193.696	GetRMSE:	260.489	GetCC	:0.585422	GetCV	:41700.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:500
+		MAE = 193.696		NRMSE = 0.98608		RMSE = 260.489	CR = 0.585422
+		193.696		0.98608		260.489	0.585422
+------------------Optimization Ends!--------current time: 2020/02/02, 15:40:02,	
+processed time:0.216667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:40:02
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D2
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	33.7319	203.772	-597.3	690.96	33.7319	156.941	206.396	0.651196	37415.3	0	97498.1	
+
+Number of estimates:	673	MeanS2S_DisVariance:	6.46747	MeanS2S_DisMean:	14.3795
+score:	363.337	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	203.772	GetMTE:33.7319	Error_Min:	-597.3	Error_Max:	690.96
+GetMAE:	156.941	GetRMSE:	206.396	GetCC	:0.651196	GetCV	:37415.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:673
+		MAE = 156.941		NRMSE = 0.796338		RMSE = 206.396	CR = 0.651196
+		156.941		0.796338		206.396	0.651196
+------------------Optimization Ends!--------current time: 2020/02/02, 15:40:26,	
+processed time:0.4(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:40:26
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D3
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	46.9652	195.069	-597.3	682.13	46.9652	151.505	200.509	0.670572	36946.2	0.934166	87173.2	
+
+Number of estimates:	707	MeanS2S_DisVariance:	8.59999	MeanS2S_DisMean:	15.4804
+score:	352.014	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	195.069	GetMTE:46.9652	Error_Min:	-597.3	Error_Max:	682.13
+GetMAE:	151.505	GetRMSE:	200.509	GetCC	:0.670572	GetCV	:36946.2
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:707
+		MAE = 151.505		NRMSE = 0.781984		RMSE = 200.509	CR = 0.670572
+		151.505		0.781984		200.509	0.670572
+------------------Optimization Ends!--------current time: 2020/02/02, 15:40:58,	
+processed time:0.533333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:40:58
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D4
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	29.2341	183.469	-586.07	685.177	29.2341	140.675	185.663	0.698682	36813.6	0.935539	79765.2	
+
+Number of estimates:	750	MeanS2S_DisVariance:	9.68637	MeanS2S_DisMean:	16.1964
+score:	326.338	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	183.469	GetMTE:29.2341	Error_Min:	-586.07	Error_Max:	685.177
+GetMAE:	140.675	GetRMSE:	185.663	GetCC	:0.698682	GetCV	:36813.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:750
+		MAE = 140.675		NRMSE = 0.735866		RMSE = 185.663	CR = 0.698682
+		140.675		0.735866		185.663	0.698682
+------------------Optimization Ends!--------current time: 2020/02/02, 15:41:39,	
+processed time:0.683333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:41:39
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D5
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	25.4537	166.641	-524.39	569.813	25.4537	128.054	168.466	0.751652	38664.8	0.934624	73287.1	
+
+Number of estimates:	763	MeanS2S_DisVariance:	10.8232	MeanS2S_DisMean:	16.892
+score:	296.519	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	166.641	GetMTE:25.4537	Error_Min:	-524.39	Error_Max:	569.813
+GetMAE:	128.054	GetRMSE:	168.466	GetCC	:0.751652	GetCV	:38664.8
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 128.054		NRMSE = 0.669767		RMSE = 168.466	CR = 0.751652
+		128.054		0.669767		168.466	0.751652
+------------------Optimization Ends!--------current time: 2020/02/02, 15:42:30,	
+processed time:0.85(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:42:30
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D6
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	22.7324	162.298	-524.39	581.069	22.7324	125.396	163.777	0.764632	38472.7	0.93315	69607.2	
+
+Number of estimates:	763	MeanS2S_DisVariance:	11.2888	MeanS2S_DisMean:	17.0962
+score:	289.173	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	162.298	GetMTE:22.7324	Error_Min:	-524.39	Error_Max:	581.069
+GetMAE:	125.396	GetRMSE:	163.777	GetCC	:0.764632	GetCV	:38472.7
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 125.396		NRMSE = 0.651126		RMSE = 163.777	CR = 0.764632
+		125.396		0.651126		163.777	0.764632
+------------------Optimization Ends!--------current time: 2020/02/02, 15:43:29,	
+processed time:0.983333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:43:29
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D7
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	15.949	155.888	-441.884	618.86	15.949	120.03	156.601	0.783788	38327.3	0.936876	64951.6	
+
+Number of estimates:	776	MeanS2S_DisVariance:	12.0909	MeanS2S_DisMean:	17.7978
+score:	276.631	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	155.888	GetMTE:15.949	Error_Min:	-441.884	Error_Max:	618.86
+GetMAE:	120.03	GetRMSE:	156.601	GetCC	:0.783788	GetCV	:38327.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:776
+		MAE = 120.03		NRMSE = 0.623908		RMSE = 156.601	CR = 0.783788
+		120.03		0.623908		156.601	0.783788
+------------------Optimization Ends!--------current time: 2020/02/02, 15:44:39,	
+processed time:1.16667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:44:39
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D8
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	15.6623	152.693	-441.884	613.191	15.6623	117.657	153.397	0.793513	38864.3	0.938129	62261	
+
+Number of estimates:	777	MeanS2S_DisVariance:	12.5738	MeanS2S_DisMean:	18.1635
+score:	271.054	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	152.693	GetMTE:15.6623	Error_Min:	-441.884	Error_Max:	613.191
+GetMAE:	117.657	GetRMSE:	153.397	GetCC	:0.793513	GetCV	:38864.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:777
+		MAE = 117.657		NRMSE = 0.611521		RMSE = 153.397	CR = 0.793513
+		117.657		0.611521		153.397	0.793513
+------------------Optimization Ends!--------current time: 2020/02/02, 15:45:57,	
+processed time:1.3(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:45:57
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D9
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	13.7845	149.305	-430.803	619.568	13.7845	115.437	149.845	0.803504	39104.1	0.937105	59752	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.7346	MeanS2S_DisMean:	18.6302
+score:	265.282	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	149.305	GetMTE:13.7845	Error_Min:	-430.803	Error_Max:	619.568
+GetMAE:	115.437	GetRMSE:	149.845	GetCC	:0.803504	GetCV	:39104.1
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 115.437		NRMSE = 0.598075		RMSE = 149.845	CR = 0.803504
+		115.437		0.598075		149.845	0.803504
+------------------Optimization Ends!--------current time: 2020/02/02, 15:47:26,	
+processed time:1.48333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:47:26
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LL_EST_D10
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,1
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	8.46052	146.311	-477.284	610.233	8.46052	111.754	146.462	0.812356	39808.2	0.936971	57216.4	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	258.216	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	146.311	GetMTE:8.46052	Error_Min:	-477.284	Error_Max:	610.233
+GetMAE:	111.754	GetRMSE:	146.462	GetCC	:0.812356	GetCV	:39808.2
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 111.754		NRMSE = 0.584572		RMSE = 146.462	CR = 0.812356
+		111.754		0.584572		146.462	0.812356
+------------------Optimization Ends!--------current time: 2020/02/02, 15:49:06,	
+processed time:1.66667(Mins)
+
+
+// SDIDW-LL -based SA for multiple sample datasets
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D1
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	92.8283	244.13	-645.97	1015.81	92.8283	194.388	260.955	0.581735	41343.3	0	113390	
+
+Number of estimates:	500	MeanS2S_DisVariance:	2.91088	MeanS2S_DisMean:	12.7726
+score:	455.343	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	244.13	GetMTE:92.8283	Error_Min:	-645.97	Error_Max:	1015.81
+GetMAE:	194.388	GetRMSE:	260.955	GetCC	:0.581735	GetCV	:41343.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:500
+		MAE = 194.388		NRMSE = 0.987843		RMSE = 260.955	CR = 0.581735
+		194.388		0.987843		260.955	0.581735
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:51,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D2
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	33.4937	204.9	-597.3	690.96	33.4937	157.857	207.47	0.646681	37065.4	0	97668.6	
+
+Number of estimates:	673	MeanS2S_DisVariance:	6.46747	MeanS2S_DisMean:	14.3795
+score:	365.327	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	204.9	GetMTE:33.4937	Error_Min:	-597.3	Error_Max:	690.96
+GetMAE:	157.857	GetRMSE:	207.47	GetCC	:0.646681	GetCV	:37065.4
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:673
+		MAE = 157.857		NRMSE = 0.80048		RMSE = 207.47	CR = 0.646681
+		157.857		0.80048		207.47	0.646681
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:51,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D3
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	46.5922	195.75	-597.3	682.13	46.5922	152.064	201.084	0.667211	36555	0.915375	87414.6	
+
+Number of estimates:	707	MeanS2S_DisVariance:	8.59999	MeanS2S_DisMean:	15.4804
+score:	353.148	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	195.75	GetMTE:46.5922	Error_Min:	-597.3	Error_Max:	682.13
+GetMAE:	152.064	GetRMSE:	201.084	GetCC	:0.667211	GetCV	:36555
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:707
+		MAE = 152.064		NRMSE = 0.784225		RMSE = 201.084	CR = 0.667211
+		152.064		0.784225		201.084	0.667211
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:51,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D4
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	28.4154	184.096	-586.07	682.13	28.4154	141.599	186.155	0.695042	36209.3	0.913536	80076.5	
+
+Number of estimates:	750	MeanS2S_DisVariance:	9.68637	MeanS2S_DisMean:	16.1964
+score:	327.754	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	184.096	GetMTE:28.4154	Error_Min:	-586.07	Error_Max:	682.13
+GetMAE:	141.599	GetRMSE:	186.155	GetCC	:0.695042	GetCV	:36209.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:750
+		MAE = 141.599		NRMSE = 0.737817		RMSE = 186.155	CR = 0.695042
+		141.599		0.737817		186.155	0.695042
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:52,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:52
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D5
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	24.8672	167.816	-524.39	557.34	24.8672	128.843	169.539	0.747118	37987.3	0.915063	73653.2	
+
+Number of estimates:	763	MeanS2S_DisVariance:	10.8232	MeanS2S_DisMean:	16.892
+score:	298.382	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	167.816	GetMTE:24.8672	Error_Min:	-524.39	Error_Max:	557.34
+GetMAE:	128.843	GetRMSE:	169.539	GetCC	:0.747118	GetCV	:37987.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 128.843		NRMSE = 0.674035		RMSE = 169.539	CR = 0.747118
+		128.843		0.674035		169.539	0.747118
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:52,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:52
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D6
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	22.3117	163.482	-524.39	557.34	22.3117	126.467	164.891	0.760437	37810.3	0.912044	70013.8	
+
+Number of estimates:	763	MeanS2S_DisVariance:	11.2888	MeanS2S_DisMean:	17.0962
+score:	291.358	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	163.482	GetMTE:22.3117	Error_Min:	-524.39	Error_Max:	557.34
+GetMAE:	126.467	GetRMSE:	164.891	GetCC	:0.760437	GetCV	:37810.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 126.467		NRMSE = 0.655556		RMSE = 164.891	CR = 0.760437
+		126.467		0.655556		164.891	0.760437
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:52,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:52
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D7
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	15.0929	156.619	-442.878	574.407	15.0929	120.998	157.244	0.781587	37697.7	0.913842	65361.6	
+
+Number of estimates:	776	MeanS2S_DisVariance:	12.0909	MeanS2S_DisMean:	17.7978
+score:	278.242	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	156.619	GetMTE:15.0929	Error_Min:	-442.878	Error_Max:	574.407
+GetMAE:	120.998	GetRMSE:	157.244	GetCC	:0.781587	GetCV	:37697.7
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:776
+		MAE = 120.998		NRMSE = 0.626468		RMSE = 157.244	CR = 0.781587
+		120.998		0.626468		157.244	0.781587
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:53,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:53
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D8
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	14.2654	154.366	-439.566	568.242	14.2654	119.34	154.924	0.788572	37924.6	0.917297	62675.6	
+
+Number of estimates:	777	MeanS2S_DisVariance:	12.5738	MeanS2S_DisMean:	18.1635
+score:	274.264	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	154.366	GetMTE:14.2654	Error_Min:	-439.566	Error_Max:	568.242
+GetMAE:	119.34	GetRMSE:	154.924	GetCC	:0.788572	GetCV	:37924.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:777
+		MAE = 119.34		NRMSE = 0.617611		RMSE = 154.924	CR = 0.788572
+		119.34		0.617611		154.924	0.788572
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:53,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:53
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D9
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	11.8692	150.402	-436.07	579.713	11.8692	116.267	150.773	0.800703	38260.2	0.918562	60132.2	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.7346	MeanS2S_DisMean:	18.6302
+score:	267.04	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	150.402	GetMTE:11.8692	Error_Min:	-436.07	Error_Max:	579.713
+GetMAE:	116.267	GetRMSE:	150.773	GetCC	:0.800703	GetCV	:38260.2
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 116.267		NRMSE = 0.601781		RMSE = 150.773	CR = 0.800703
+		116.267		0.601781		150.773	0.800703
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:54,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:52:54
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_SDIDW-LL_EST_D10
+
+bUsePower_D2E_AS_D2D = 	1
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	6.12441	146.747	-477.284	571.277	6.12441	112.04	146.781	0.811766	39023.4	0.918474	57587.3	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	258.821	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	146.747	GetMTE:6.12441	Error_Min:	-477.284	Error_Max:	571.277
+GetMAE:	112.04	GetRMSE:	146.781	GetCC	:0.811766	GetCV	:39023.4
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 112.04		NRMSE = 0.585846		RMSE = 146.781	CR = 0.811766
+		112.04		0.585846		146.781	0.811766
+------------------Optimization Ends!--------current time: 2020/02/02, 15:52:54,	
+processed time:0(Mins)
+
+// OK -based SA for multiple sample datasets
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:500
+		MAE = 193.364		NRMSE = 0.983682		RMSE = 259.856	CR = 0.58733
+		193.364		0.983682		259.856	0.58733
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:673
+		MAE = 156.041		NRMSE = 0.792417		RMSE = 205.38	CR = 0.655942
+		156.041		0.792417		205.38	0.655942
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:707
+		MAE = 149.754		NRMSE = 0.77711		RMSE = 199.259	CR = 0.676464
+		149.754		0.77711		199.259	0.676464
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:750
+		MAE = 139.17		NRMSE = 0.730709		RMSE = 184.362	CR = 0.70401
+		139.17		0.730709		184.362	0.70401
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 125.348		NRMSE = 0.664795		RMSE = 167.215	CR = 0.756603
+		125.348		0.664795		167.215	0.756603
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 122.032		NRMSE = 0.642263		RMSE = 161.548	CR = 0.772191
+		122.032		0.642263		161.548	0.772191
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:776
+		MAE = 116.576		NRMSE = 0.612927		RMSE = 153.845	CR = 0.791525
+		116.576		0.612927		153.845	0.791525
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:777
+		MAE = 114.17		NRMSE = 0.600931		RMSE = 150.74	CR = 0.799871
+		114.17		0.600931		150.74	0.799871
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 111.7		NRMSE = 0.586916		RMSE = 147.049	CR = 0.809776
+		111.7		0.586916		147.049	0.809776
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:19
+
+Kriging	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 107.826		NRMSE = 0.575282		RMSE = 144.134	CR = 0.8178
+		107.826		0.575282		144.134	0.8178
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:19,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:45
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D1
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	93.5096	244.234	-645.97	1015.81	93.5096	194.521	261.295	0.582608	41521	0	113408	
+
+Number of estimates:	500	MeanS2S_DisVariance:	2.91088	MeanS2S_DisMean:	12.7726
+score:	455.816	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	244.234	GetMTE:93.5096	Error_Min:	-645.97	Error_Max:	1015.81
+GetMAE:	194.521	GetRMSE:	261.295	GetCC	:0.582608	GetCV	:41521
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:500
+		MAE = 194.521		NRMSE = 0.989129		RMSE = 261.295	CR = 0.582608
+		194.521		0.989129		261.295	0.582608
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:45,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:45
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D2
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	34.7689	205.478	-597.3	690.96	34.7689	158.663	208.248	0.644791	36987.9	0	97754.9	
+
+Number of estimates:	673	MeanS2S_DisVariance:	6.46747	MeanS2S_DisMean:	14.3795
+score:	366.911	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	205.478	GetMTE:34.7689	Error_Min:	-597.3	Error_Max:	690.96
+GetMAE:	158.663	GetRMSE:	208.248	GetCC	:0.644791	GetCV	:36987.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:673
+		MAE = 158.663		NRMSE = 0.803485		RMSE = 208.248	CR = 0.644791
+		158.663		0.803485		208.248	0.644791
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:45,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:45
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D3
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	52.8119	196.639	-597.3	682.13	52.8119	153.291	203.473	0.668186	37471.6	0.929509	87611.6	
+
+Number of estimates:	707	MeanS2S_DisVariance:	8.59999	MeanS2S_DisMean:	15.4804
+score:	356.764	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	196.639	GetMTE:52.8119	Error_Min:	-597.3	Error_Max:	682.13
+GetMAE:	153.291	GetRMSE:	203.473	GetCC	:0.668186	GetCV	:37471.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:707
+		MAE = 153.291		NRMSE = 0.793543		RMSE = 203.473	CR = 0.668186
+		153.291		0.793543		203.473	0.668186
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:45,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:45
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D4
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	36.2096	186.095	-586.07	756.359	36.2096	143.598	189.463	0.6921	37127.8	0.919244	80317.4	
+
+Number of estimates:	750	MeanS2S_DisVariance:	9.68637	MeanS2S_DisMean:	16.1964
+score:	333.061	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	186.095	GetMTE:36.2096	Error_Min:	-586.07	Error_Max:	756.359
+GetMAE:	143.598	GetRMSE:	189.463	GetCC	:0.6921	GetCV	:37127.8
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:750
+		MAE = 143.598		NRMSE = 0.750928		RMSE = 189.463	CR = 0.6921
+		143.598		0.750928		189.463	0.6921
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:45,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:45
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D5
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	34.743	169.232	-524.39	591.558	34.743	131.539	172.653	0.744184	38779.9	0.917425	73982.6	
+
+Number of estimates:	763	MeanS2S_DisVariance:	10.8232	MeanS2S_DisMean:	16.892
+score:	304.192	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	169.232	GetMTE:34.743	Error_Min:	-524.39	Error_Max:	591.558
+GetMAE:	131.539	GetRMSE:	172.653	GetCC	:0.744184	GetCV	:38779.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 131.539		NRMSE = 0.686416		RMSE = 172.653	CR = 0.744184
+		131.539		0.686416		172.653	0.744184
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:46,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:46
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D6
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	34.7307	166.153	-524.39	594.189	34.7307	130.508	169.637	0.752967	38562.3	0.916488	70390.4	
+
+Number of estimates:	763	MeanS2S_DisVariance:	11.2888	MeanS2S_DisMean:	17.0962
+score:	300.146	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	166.153	GetMTE:34.7307	Error_Min:	-524.39	Error_Max:	594.189
+GetMAE:	130.508	GetRMSE:	169.637	GetCC	:0.752967	GetCV	:38562.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 130.508		NRMSE = 0.674426		RMSE = 169.637	CR = 0.752967
+		130.508		0.674426		169.637	0.752967
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:46,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:46
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D7
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	28.6467	160.14	-441.884	618.86	28.6467	125.433	162.58	0.770358	38426.5	0.915951	65773.7	
+
+Number of estimates:	776	MeanS2S_DisVariance:	12.0909	MeanS2S_DisMean:	17.7978
+score:	288.013	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	160.14	GetMTE:28.6467	Error_Min:	-441.884	Error_Max:	618.86
+GetMAE:	125.433	GetRMSE:	162.58	GetCC	:0.770358	GetCV	:38426.5
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:776
+		MAE = 125.433		NRMSE = 0.647728		RMSE = 162.58	CR = 0.770358
+		125.433		0.647728		162.58	0.770358
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:46,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:46
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D8
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	29.4458	157.543	-441.884	613.191	29.4458	123.442	160.172	0.778353	38892.7	0.915298	63127.9	
+
+Number of estimates:	777	MeanS2S_DisVariance:	12.5738	MeanS2S_DisMean:	18.1635
+score:	283.614	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	157.543	GetMTE:29.4458	Error_Min:	-441.884	Error_Max:	613.191
+GetMAE:	123.442	GetRMSE:	160.172	GetCC	:0.778353	GetCV	:38892.7
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:777
+		MAE = 123.442		NRMSE = 0.63853		RMSE = 160.172	CR = 0.778353
+		123.442		0.63853		160.172	0.778353
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:47,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:47
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D9
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	28.2256	154.427	-430.803	619.568	28.2256	121.464	156.888	0.78748	39142.6	0.914668	60625.4	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.7346	MeanS2S_DisMean:	18.6302
+score:	278.352	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	154.427	GetMTE:28.2256	Error_Min:	-430.803	Error_Max:	619.568
+GetMAE:	121.464	GetRMSE:	156.888	GetCC	:0.78748	GetCV	:39142.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 121.464		NRMSE = 0.626186		RMSE = 156.888	CR = 0.78748
+		121.464		0.626186		156.888	0.78748
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:47,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 15:53:47
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D10
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	23.5508	150.376	-471.916	610.233	23.5508	117.062	152.114	0.799854	40020.5	0.912117	58069.8	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	269.177	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	150.376	GetMTE:23.5508	Error_Min:	-471.916	Error_Max:	610.233
+GetMAE:	117.062	GetRMSE:	152.114	GetCC	:0.799854	GetCV	:40020.5
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 117.062		NRMSE = 0.607133		RMSE = 152.114	CR = 0.799854
+		117.062		0.607133		152.114	0.799854
+------------------Optimization Ends!--------current time: 2020/02/02, 15:53:48,	
+processed time:0.0166667(Mins)
+
+
+// IDW-L -based SA for multiple sample datasets
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:49
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D1
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	93.5096	244.234	-645.97	1015.81	93.5096	194.521	261.295	0.582608	41521	0	113408	
+
+Number of estimates:	500	MeanS2S_DisVariance:	2.91088	MeanS2S_DisMean:	12.7726
+score:	455.816	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	244.234	GetMTE:93.5096	Error_Min:	-645.97	Error_Max:	1015.81
+GetMAE:	194.521	GetRMSE:	261.295	GetCC	:0.582608	GetCV	:41521
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:500
+		MAE = 194.521		NRMSE = 0.989129		RMSE = 261.295	CR = 0.582608
+		194.521		0.989129		261.295	0.582608
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:49,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:49
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D2
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	34.7689	205.478	-597.3	690.96	34.7689	158.663	208.248	0.644791	36987.9	0	97754.9	
+
+Number of estimates:	673	MeanS2S_DisVariance:	6.46747	MeanS2S_DisMean:	14.3795
+score:	366.911	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	205.478	GetMTE:34.7689	Error_Min:	-597.3	Error_Max:	690.96
+GetMAE:	158.663	GetRMSE:	208.248	GetCC	:0.644791	GetCV	:36987.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:673
+		MAE = 158.663		NRMSE = 0.803485		RMSE = 208.248	CR = 0.644791
+		158.663		0.803485		208.248	0.644791
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:49,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:49
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D3
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	52.8119	196.639	-597.3	682.13	52.8119	153.291	203.473	0.668186	37471.6	0.929509	87611.6	
+
+Number of estimates:	707	MeanS2S_DisVariance:	8.59999	MeanS2S_DisMean:	15.4804
+score:	356.764	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	196.639	GetMTE:52.8119	Error_Min:	-597.3	Error_Max:	682.13
+GetMAE:	153.291	GetRMSE:	203.473	GetCC	:0.668186	GetCV	:37471.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:707
+		MAE = 153.291		NRMSE = 0.793543		RMSE = 203.473	CR = 0.668186
+		153.291		0.793543		203.473	0.668186
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:50,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:50
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D4
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	36.2096	186.095	-586.07	756.359	36.2096	143.598	189.463	0.6921	37127.8	0.919244	80317.4	
+
+Number of estimates:	750	MeanS2S_DisVariance:	9.68637	MeanS2S_DisMean:	16.1964
+score:	333.061	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	186.095	GetMTE:36.2096	Error_Min:	-586.07	Error_Max:	756.359
+GetMAE:	143.598	GetRMSE:	189.463	GetCC	:0.6921	GetCV	:37127.8
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:750
+		MAE = 143.598		NRMSE = 0.750928		RMSE = 189.463	CR = 0.6921
+		143.598		0.750928		189.463	0.6921
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:50,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:50
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D5
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	34.743	169.232	-524.39	591.558	34.743	131.539	172.653	0.744184	38779.9	0.917425	73982.6	
+
+Number of estimates:	763	MeanS2S_DisVariance:	10.8232	MeanS2S_DisMean:	16.892
+score:	304.192	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	169.232	GetMTE:34.743	Error_Min:	-524.39	Error_Max:	591.558
+GetMAE:	131.539	GetRMSE:	172.653	GetCC	:0.744184	GetCV	:38779.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 131.539		NRMSE = 0.686416		RMSE = 172.653	CR = 0.744184
+		131.539		0.686416		172.653	0.744184
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:50,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:50
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D6
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	34.7307	166.153	-524.39	594.189	34.7307	130.508	169.637	0.752967	38562.3	0.916488	70390.4	
+
+Number of estimates:	763	MeanS2S_DisVariance:	11.2888	MeanS2S_DisMean:	17.0962
+score:	300.146	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	166.153	GetMTE:34.7307	Error_Min:	-524.39	Error_Max:	594.189
+GetMAE:	130.508	GetRMSE:	169.637	GetCC	:0.752967	GetCV	:38562.3
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 130.508		NRMSE = 0.674426		RMSE = 169.637	CR = 0.752967
+		130.508		0.674426		169.637	0.752967
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:50,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D7
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	28.6467	160.14	-441.884	618.86	28.6467	125.433	162.58	0.770358	38426.5	0.915951	65773.7	
+
+Number of estimates:	776	MeanS2S_DisVariance:	12.0909	MeanS2S_DisMean:	17.7978
+score:	288.013	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	160.14	GetMTE:28.6467	Error_Min:	-441.884	Error_Max:	618.86
+GetMAE:	125.433	GetRMSE:	162.58	GetCC	:0.770358	GetCV	:38426.5
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:776
+		MAE = 125.433		NRMSE = 0.647728		RMSE = 162.58	CR = 0.770358
+		125.433		0.647728		162.58	0.770358
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:51,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D8
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	29.4458	157.543	-441.884	613.191	29.4458	123.442	160.172	0.778353	38892.7	0.915298	63127.9	
+
+Number of estimates:	777	MeanS2S_DisVariance:	12.5738	MeanS2S_DisMean:	18.1635
+score:	283.614	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	157.543	GetMTE:29.4458	Error_Min:	-441.884	Error_Max:	613.191
+GetMAE:	123.442	GetRMSE:	160.172	GetCC	:0.778353	GetCV	:38892.7
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:777
+		MAE = 123.442		NRMSE = 0.63853		RMSE = 160.172	CR = 0.778353
+		123.442		0.63853		160.172	0.778353
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:51,	
+processed time:0(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:51
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D9
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	28.2256	154.427	-430.803	619.568	28.2256	121.464	156.888	0.78748	39142.6	0.914668	60625.4	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.7346	MeanS2S_DisMean:	18.6302
+score:	278.352	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	154.427	GetMTE:28.2256	Error_Min:	-430.803	Error_Max:	619.568
+GetMAE:	121.464	GetRMSE:	156.888	GetCC	:0.78748	GetCV	:39142.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 121.464		NRMSE = 0.626186		RMSE = 156.888	CR = 0.78748
+		121.464		0.626186		156.888	0.78748
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:52,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:42:52
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_IDW-L_EST_D10
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	0	23.5508	150.376	-471.916	610.233	23.5508	117.062	152.114	0.799854	40020.5	0.912117	58069.8	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	269.177	dPowerS-U:	0	dPowerS-S:	0
+Error_Variance:	150.376	GetMTE:23.5508	Error_Min:	-471.916	Error_Max:	610.233
+GetMAE:	117.062	GetRMSE:	152.114	GetCC	:0.799854	GetCV	:40020.5
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 117.062		NRMSE = 0.607133		RMSE = 152.114	CR = 0.799854
+		117.062		0.607133		152.114	0.799854
+------------------Optimization Ends!--------current time: 2020/02/02, 16:42:52,	
+processed time:0(Mins)
+
+// DIDW-GG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:59:20
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
+sim_data = GV_WALKER_470_DATA_10%.V_DIDW-GG_EST_D1
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -229,14 +1338,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:35
 		MAE = 241.523		NRMSE = 1.16411		RMSE = 317.347	CR = 0.194711
 		241.523		1.16411		317.347	0.194711
-------------------Optimization Ends!--------current time: 2019/10/27, 16:09:45,	
-processed time:0.45(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 16:59:48,	
+processed time:0.466667(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 16:09:45
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:59:48
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
-sim_data = GV_WALKER_470_DATA_20%.V_EST
+sim_data = GV_WALKER_470_DATA_20%.V_DIDW-GG_EST_D2
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -460,14 +1569,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:86
 		MAE = 173.822		NRMSE = 0.925316		RMSE = 242.176	CR = 0.484546
 		173.822		0.925316		242.176	0.484546
-------------------Optimization Ends!--------current time: 2019/10/27, 16:11:17,	
-processed time:1.53333(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 17:01:23,	
+processed time:1.58333(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 16:11:17
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 17:01:23
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
-sim_data = GV_WALKER_470_DATA_30%.V_EST
+sim_data = GV_WALKER_470_DATA_30%.V_DIDW-GG_EST_D3
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -691,14 +1800,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:135
 		MAE = 161.455		NRMSE = 0.733275		RMSE = 206.002	CR = 0.67842
 		161.455		0.733275		206.002	0.67842
-------------------Optimization Ends!--------current time: 2019/10/27, 16:14:36,	
-processed time:3.31667(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 17:04:43,	
+processed time:3.33333(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 16:14:36
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 17:04:43
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
-sim_data = GV_WALKER_470_DATA_40%.V_EST
+sim_data = GV_WALKER_470_DATA_40%.V_DIDW-GG_EST_D4
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -922,14 +2031,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:183
 		MAE = 156.954		NRMSE = 0.695296		RMSE = 203.411	CR = 0.71709
 		156.954		0.695296		203.411	0.71709
-------------------Optimization Ends!--------current time: 2019/10/27, 17:30:40,	
-processed time:76.0667(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 17:10:51,	
+processed time:6.13333(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 17:30:40
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 17:10:51
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
-sim_data = GV_WALKER_470_DATA_50%.V_EST
+sim_data = GV_WALKER_470_DATA_50%.V_DIDW-GG_EST_D5
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -1153,14 +2262,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:231
 		MAE = 160.249		NRMSE = 0.703763		RMSE = 204.718	CR = 0.712477
 		160.249		0.703763		204.718	0.712477
-------------------Optimization Ends!--------current time: 2019/10/27, 17:40:03,	
-processed time:9.38333(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 17:20:13,	
+processed time:9.36667(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 17:40:03
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 17:20:13
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
-sim_data = GV_WALKER_470_DATA_60%.V_EST
+sim_data = GV_WALKER_470_DATA_60%.V_DIDW-GG_EST_D6
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -1384,14 +2493,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:280
 		MAE = 162.982		NRMSE = 0.721916		RMSE = 206.85	CR = 0.694669
 		162.982		0.721916		206.85	0.694669
-------------------Optimization Ends!--------current time: 2019/10/27, 17:53:50,	
-processed time:13.7833(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 17:34:06,	
+processed time:13.8833(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 17:53:50
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 17:34:06
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
-sim_data = GV_WALKER_470_DATA_70%.V_EST
+sim_data = GV_WALKER_470_DATA_70%.V_DIDW-GG_EST_D7
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -1615,14 +2724,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:329
 		MAE = 156.763		NRMSE = 0.699371		RMSE = 200.997	CR = 0.715122
 		156.763		0.699371		200.997	0.715122
-------------------Optimization Ends!--------current time: 2019/10/27, 18:12:34,	
-processed time:18.7333(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 17:53:22,	
+processed time:19.2667(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 18:12:34
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 17:53:22
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
-sim_data = GV_WALKER_470_DATA_80%.V_EST
+sim_data = GV_WALKER_470_DATA_80%.V_DIDW-GG_EST_D8
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -1846,14 +2955,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:376
 		MAE = 156.165		NRMSE = 0.674659		RMSE = 198.675	CR = 0.738209
 		156.165		0.674659		198.675	0.738209
-------------------Optimization Ends!--------current time: 2019/10/27, 18:37:26,	
-processed time:24.8667(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 18:19:14,	
+processed time:25.8667(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 18:37:26
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 18:19:14
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
-sim_data = GV_WALKER_470_DATA_90%.V_EST
+sim_data = GV_WALKER_470_DATA_90%.V_DIDW-GG_EST_D9
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -2077,14 +3186,14 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:423
 		MAE = 151.837		NRMSE = 0.659662		RMSE = 193.349	CR = 0.751529
 		151.837		0.659662		193.349	0.751529
-------------------Optimization Ends!--------current time: 2019/10/27, 19:09:48,	
-processed time:32.3667(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 18:54:47,	
+processed time:35.55(Mins)
 
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 19:09:48
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 18:54:47
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
-sim_data = GV_WALKER_470_DATA_100%.V_EST
+sim_data = GV_WALKER_470_DATA_100%.V_DIDW-GG_EST_D10
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	1,1	OptType_L = 	0,0
@@ -2308,16 +3417,31 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:470
 		MAE = 150.866		NRMSE = 0.646853		RMSE = 193.98	CR = 0.762938
 		150.866		0.646853		193.98	0.762938
-------------------Optimization Ends!--------current time: 2019/10/27, 19:50:59,	
-processed time:41.1833(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 19:38:21,	
+processed time:43.5667(Mins)
 
-// 利用交叉验证得到的最优幂指数 进行实际插值
-3.5	0
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:36:31
-10%
+// DIDW-GG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents
+
+optimal powers
+D-U-Power	D-D-Power
+3.5_0
+4.1_1.9
+1.6_2.4
+2.4_2.9
+2.2_3.5
+2.2_3.6
+2.8_3.7
+3_3.6
+3.2_3.8
+3.3_4.4
+
+D-U-Power	D-D-Power
+3.5_0
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:22:15
+
 Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D1_3.5_0
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2334,15 +3458,16 @@ Global Opt
 DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:500
 		MAE = 191.312		NRMSE = 0.991029		RMSE = 261.797	CR = 0.601205
-		191.312	0.991029	261.797	0.601205
-------------------Optimization Ends!--------current time: 2019/10/27, 22:36:31,	
+		191.312		0.991029		261.797	0.601205
+------------------Optimization Ends!--------current time: 2020/02/02, 20:22:15,	
 processed time:0(Mins)
 
 
-4.1	1.9
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:37:46
+4.1_1.9
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:23:48
+
 Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D2_4.1_1.9
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2360,14 +3485,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:673
 		MAE = 156.061		NRMSE = 0.810167		RMSE = 209.98	CR = 0.656915
 		156.061		0.810167		209.98	0.656915
-------------------Optimization Ends!--------current time: 2019/10/27, 22:37:46,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:23:48,	
 processed time:0(Mins)
 
-1.6	2.4
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:40:12
+
+1.6_2.4
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:24:33
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D3_1.6_2.4
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2385,14 +3511,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:707
 		MAE = 153.195		NRMSE = 0.790602		RMSE = 202.718	CR = 0.653884
 		153.195		0.790602		202.718	0.653884
-------------------Optimization Ends!--------current time: 2019/10/27, 22:40:12,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:24:33,	
 processed time:0(Mins)
 
-2.4	2.9	
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:41:22
+
+2.4_2.9
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:29:05
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D4_2.4_2.9
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2410,14 +3537,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:750
 		MAE = 139.596		NRMSE = 0.740178		RMSE = 186.751	CR = 0.690423
 		139.596		0.740178		186.751	0.690423
-------------------Optimization Ends!--------current time: 2019/10/27, 22:41:22,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:29:05,	
 processed time:0(Mins)
 
-2.2	3.5
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:42:27
+
+2.2_3.5
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:30:04
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D5_2.2_3.5
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2435,14 +3563,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:763
 		MAE = 128.851		NRMSE = 0.685802		RMSE = 172.499	CR = 0.73115
 		128.851		0.685802		172.499	0.73115
-------------------Optimization Ends!--------current time: 2019/10/27, 22:42:28,	
-processed time:0.0166667(Mins)
+------------------Optimization Ends!--------current time: 2020/02/02, 20:30:04,	
+processed time:0(Mins)
 
-2.2	3.6
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:43:31
+
+2.2_3.6
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:30:53
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D6_2.2_3.6
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2460,15 +3589,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:763
 		MAE = 125.642		NRMSE = 0.664046		RMSE = 167.027	CR = 0.748085
 		125.642		0.664046		167.027	0.748085
-------------------Optimization Ends!--------current time: 2019/10/27, 22:43:31,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:30:53,	
 processed time:0(Mins)
 
-2.8	3.7
 
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:45:00
+2.8_3.7
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:31:37
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D7_2.8_3.7
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2486,14 +3615,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:776
 		MAE = 117.644		NRMSE = 0.629466		RMSE = 157.996	CR = 0.776721
 		117.644		0.629466		157.996	0.776721
-------------------Optimization Ends!--------current time: 2019/10/27, 22:45:00,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:31:37,	
 processed time:0(Mins)
 
-3	3.6
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:46:24
+
+3_3.6
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:32:25
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D8_3_3.6
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2511,14 +3641,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:777
 		MAE = 116.347		NRMSE = 0.621592		RMSE = 155.923	CR = 0.783028
 		116.347		0.621592		155.923	0.783028
-------------------Optimization Ends!--------current time: 2019/10/27, 22:46:24,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:32:25,	
 processed time:0(Mins)
 
-3.2	3.8
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:47:36
+
+3.2_3.8
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:33:01
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D9_3.2_3.8
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2536,16 +3667,15 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:780
 		MAE = 113.398		NRMSE = 0.606736		RMSE = 152.015	CR = 0.794737
 		113.398		0.606736		152.015	0.794737
-------------------Optimization Ends!--------current time: 2019/10/27, 22:47:36,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:33:01,	
 processed time:0(Mins)
 
-3.3	4.4
 
-
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/10/27, 22:48:32
+3.3_4.4
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:33:48
 
 Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
-sim_data = GV_WALKER_780_BLOCK.V_EST
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-GG_EST_D10_3.3_4.4
 
 bUsePower_D2E_AS_D2D = 	0
 OptType_G = 	0,0	OptType_L = 	0,0
@@ -2563,6 +3693,592 @@ DIDW	 interpolation accuracy (the reference property is V):
 		 number of estimates:780
 		MAE = 111.159		NRMSE = 0.600446		RMSE = 150.439	CR = 0.800791
 		111.159		0.600446		150.439	0.800791
-------------------Optimization Ends!--------current time: 2019/10/27, 22:48:32,	
+------------------Optimization Ends!--------current time: 2020/02/02, 20:33:48,	
 processed time:0(Mins)
+
+
+// DIDW-LG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:43:31
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
+sim_data = GV_WALKER_470_DATA_10%.V_DIDW-LG_EST_D1
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	3.2	8.01506	319.734	-971.8	473.408	8.01506	251.261	315.236	0.158919	9087.16	0	116777	
+
+Number of estimates:	35	MeanS2S_DisVariance:	5.343	MeanS2S_DisMean:	12.3466
+score:	566.496	dPowerS-U:	0	dPowerS-S:	3.2
+Error_Variance:	319.734	GetMTE:8.01506	Error_Min:	-971.8	Error_Max:	473.408
+GetMAE:	251.261	GetRMSE:	315.236	GetCC	:0.158919	GetCV	:9087.16
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:19.9
+0	0	19.9	8.16827	324.033	-971.8	473.408	8.16827	257.98	319.475	0.142888	8263.99	0	125292	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:3.2
+0	0	3.2	8.01506	319.734	-971.8	473.408	8.01506	251.261	315.236	0.158919	9087.16	0	116777	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:35
+		MAE = 251.261		NRMSE = 1.15637		RMSE = 315.236	CR = 0.158919
+		251.261		1.15637		315.236	0.158919
+------------------Optimization Ends!--------current time: 2020/02/02, 16:43:32,	
+processed time:0.0166667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:43:32
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
+sim_data = GV_WALKER_470_DATA_20%.V_DIDW-LG_EST_D2
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	15.7	-3.76755	246.263	-800.473	540	-3.76755	177.199	244.856	0.470989	25457.8	0	104000	
+
+Number of estimates:	86	MeanS2S_DisVariance:	7.4391	MeanS2S_DisMean:	15.8491
+score:	422.055	dPowerS-U:	0	dPowerS-S:	15.7
+Error_Variance:	246.263	GetMTE:-3.76755	Error_Min:	-800.473	Error_Max:	540
+GetMAE:	177.199	GetRMSE:	244.856	GetCC	:0.470989	GetCV	:25457.8
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:20
+0	0	20	-8.22465	249.367	-800.473	540	-8.22465	179.938	248.049	0.463099	25482.6	0	105908	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:15.7
+0	0	15.7	-3.76755	246.263	-800.473	540	-3.76755	177.199	244.856	0.470989	25457.8	0	104000	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:86
+		MAE = 177.199		NRMSE = 0.935556		RMSE = 244.856	CR = 0.470989
+		177.199		0.935556		244.856	0.470989
+------------------Optimization Ends!--------current time: 2020/02/02, 16:43:37,	
+processed time:0.0833333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:43:37
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
+sim_data = GV_WALKER_470_DATA_30%.V_DIDW-LG_EST_D3
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	3.3	5.00178	204.365	-426.176	475.863	5.00178	162.204	203.668	0.688611	40276.7	0.826619	83459.2	
+
+Number of estimates:	135	MeanS2S_DisVariance:	11.5805	MeanS2S_DisMean:	17.3323
+score:	365.872	dPowerS-U:	0	dPowerS-S:	3.3
+Error_Variance:	204.365	GetMTE:5.00178	Error_Min:	-426.176	Error_Max:	475.863
+GetMAE:	162.204	GetRMSE:	203.668	GetCC	:0.688611	GetCV	:40276.7
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:19.9
+0	0	19.9	-36.9716	222.688	-553.872	514.152	-36.9716	175.675	224.921	0.634244	40203.7	0.599834	96463.7	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:3.3
+0	0	3.3	5.00178	204.365	-426.176	475.863	5.00178	162.204	203.668	0.688611	40276.7	0.826619	83459.2	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:135
+		MAE = 162.204		NRMSE = 0.724967		RMSE = 203.668	CR = 0.688611
+		162.204		0.724967		203.668	0.688611
+------------------Optimization Ends!--------current time: 2020/02/02, 16:43:45,	
+processed time:0.133333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:43:46
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
+sim_data = GV_WALKER_470_DATA_40%.V_DIDW-LG_EST_D4
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4.4	-5.23599	202.47	-685.659	565.405	-5.23599	159.188	201.984	0.72196	45238.2	0.829591	77257.8	
+
+Number of estimates:	183	MeanS2S_DisVariance:	12.1015	MeanS2S_DisMean:	18.1343
+score:	361.172	dPowerS-U:	0	dPowerS-S:	4.4
+Error_Variance:	202.47	GetMTE:-5.23599	Error_Min:	-685.659	Error_Max:	565.405
+GetMAE:	159.188	GetRMSE:	201.984	GetCC	:0.72196	GetCV	:45238.2
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:20
+0	0	20	-43.2643	215.613	-674.525	620.288	-43.2643	169.259	219.332	0.685748	46790.6	0.685661	90161	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:4.4
+0	0	4.4	-5.23599	202.47	-685.659	565.405	-5.23599	159.188	201.984	0.72196	45238.2	0.829591	77257.8	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:183
+		MAE = 159.188		NRMSE = 0.690418		RMSE = 201.984	CR = 0.72196
+		159.188		0.690418		201.984	0.72196
+------------------Optimization Ends!--------current time: 2020/02/02, 16:44:02,	
+processed time:0.266667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:44:02
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
+sim_data = GV_WALKER_470_DATA_50%.V_DIDW-LG_EST_D5
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4.7	-10.8721	202.442	-643.013	551.072	-10.8721	159.342	202.296	0.718151	43969.2	0.842765	72610.1	
+
+Number of estimates:	231	MeanS2S_DisVariance:	13.7239	MeanS2S_DisMean:	18.5497
+score:	361.638	dPowerS-U:	0	dPowerS-S:	4.7
+Error_Variance:	202.442	GetMTE:-10.8721	Error_Min:	-643.013	Error_Max:	551.072
+GetMAE:	159.342	GetRMSE:	202.296	GetCC	:0.718151	GetCV	:43969.2
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:19.9
+0	0	19.9	-50.1134	219.536	-583.49	534.737	-50.1134	174.541	224.719	0.671278	46000.6	0.70394	84100.4	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:4.7
+0	0	4.7	-10.8721	202.442	-643.013	551.072	-10.8721	159.342	202.296	0.718151	43969.2	0.842765	72610.1	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:231
+		MAE = 159.342		NRMSE = 0.695437		RMSE = 202.296	CR = 0.718151
+		159.342		0.695437		202.296	0.718151
+------------------Optimization Ends!--------current time: 2020/02/02, 16:44:27,	
+processed time:0.416667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:44:27
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
+sim_data = GV_WALKER_470_DATA_60%.V_DIDW-LG_EST_D6
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	5	-12.1171	203.484	-659.588	545.46	-12.1171	160.182	203.482	0.704041	40337.6	0.836014	68919.6	
+
+Number of estimates:	280	MeanS2S_DisVariance:	13.8419	MeanS2S_DisMean:	18.9222
+score:	363.663	dPowerS-U:	0	dPowerS-S:	5
+Error_Variance:	203.484	GetMTE:-12.1171	Error_Min:	-659.588	Error_Max:	545.46
+GetMAE:	160.182	GetRMSE:	203.482	GetCC	:0.704041	GetCV	:40337.6
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:20
+0	0	20	-50.2311	217.831	-621.539	546.538	-50.2311	173.82	223.168	0.661606	42587.1	0.691802	80988.3	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:5
+0	0	5	-12.1171	203.484	-659.588	545.46	-12.1171	160.182	203.482	0.704041	40337.6	0.836014	68919.6	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:280
+		MAE = 160.182		NRMSE = 0.71016		RMSE = 203.482	CR = 0.704041
+		160.182		0.71016		203.482	0.704041
+------------------Optimization Ends!--------current time: 2020/02/02, 16:45:05,	
+processed time:0.633333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:45:05
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
+sim_data = GV_WALKER_470_DATA_70%.V_DIDW-LG_EST_D7
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	5.2	-10.6435	196.617	-653.226	531.757	-10.6435	153.297	196.606	0.729832	42288.9	0.832988	67379	
+
+Number of estimates:	329	MeanS2S_DisVariance:	13.8231	MeanS2S_DisMean:	19.3033
+score:	349.903	dPowerS-U:	0	dPowerS-S:	5.2
+Error_Variance:	196.617	GetMTE:-10.6435	Error_Min:	-653.226	Error_Max:	531.757
+GetMAE:	153.297	GetRMSE:	196.606	GetCC	:0.729832	GetCV	:42288.9
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:20
+0	0	20	-47.1333	207.447	-650.635	550	-47.1333	165.457	212.427	0.696765	44601.7	0.692433	79648.6	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:5.2
+0	0	5.2	-10.6435	196.617	-653.226	531.757	-10.6435	153.297	196.606	0.729832	42288.9	0.832988	67379	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:329
+		MAE = 153.297		NRMSE = 0.68409		RMSE = 196.606	CR = 0.729832
+		153.297		0.68409		196.606	0.729832
+------------------Optimization Ends!--------current time: 2020/02/02, 16:45:57,	
+processed time:0.866667(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:45:57
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
+sim_data = GV_WALKER_470_DATA_80%.V_DIDW-LG_EST_D8
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	3.9	-5.30826	193.961	-484.202	622.719	-5.30826	152.72	193.775	0.754328	45741.4	0.848514	63745.1	
+
+Number of estimates:	376	MeanS2S_DisVariance:	14.7633	MeanS2S_DisMean:	19.5563
+score:	346.495	dPowerS-U:	0	dPowerS-S:	3.9
+Error_Variance:	193.961	GetMTE:-5.30826	Error_Min:	-484.202	Error_Max:	622.719
+GetMAE:	152.72	GetRMSE:	193.775	GetCC	:0.754328	GetCV	:45741.4
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:20
+0	0	20	-55.8256	210.361	-623.406	604.454	-55.8256	169.571	217.372	0.702519	46440.8	0.675279	77674.5	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:3.9
+0	0	3.9	-5.30826	193.961	-484.202	622.719	-5.30826	152.72	193.775	0.754328	45741.4	0.848514	63745.1	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:376
+		MAE = 152.72		NRMSE = 0.658021		RMSE = 193.775	CR = 0.754328
+		152.72		0.658021		193.775	0.754328
+------------------Optimization Ends!--------current time: 2020/02/02, 16:47:08,	
+processed time:1.18333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:47:08
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
+sim_data = GV_WALKER_470_DATA_90%.V_DIDW-LG_EST_D9
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4.1	-5.04058	189.729	-471.759	628.427	-5.04058	150.583	189.572	0.764803	46019.2	0.847063	61784.5	
+
+Number of estimates:	423	MeanS2S_DisVariance:	14.6709	MeanS2S_DisMean:	19.9831
+score:	340.155	dPowerS-U:	0	dPowerS-S:	4.1
+Error_Variance:	189.729	GetMTE:-5.04058	Error_Min:	-471.759	Error_Max:	628.427
+GetMAE:	150.583	GetRMSE:	189.572	GetCC	:0.764803	GetCV	:46019.2
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:20
+0	0	20	-52.5326	206.335	-623.116	604.607	-52.5326	165.399	212.681	0.711346	45793	0.680173	74502	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:4.1
+0	0	4.1	-5.04058	189.729	-471.759	628.427	-5.04058	150.583	189.572	0.764803	46019.2	0.847063	61784.5	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:423
+		MAE = 150.583		NRMSE = 0.646775		RMSE = 189.572	CR = 0.764803
+		150.583		0.646775		189.572	0.764803
+------------------Optimization Ends!--------current time: 2020/02/02, 16:48:40,	
+processed time:1.53333(Mins)
+
+
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 16:48:40
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_470_DATA_100%.V_DIDW-LG_EST_D10
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,1	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	0
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4	-3.43176	193.123	-706.913	638.595	-3.43176	152.523	192.948	0.767592	48556.8	0.845625	59863.3	
+
+Number of estimates:	470	MeanS2S_DisVariance:	14.4721	MeanS2S_DisMean:	20.2898
+score:	345.47	dPowerS-U:	0	dPowerS-S:	4
+Error_Variance:	193.123	GetMTE:-3.43176	Error_Min:	-706.913	Error_Max:	638.595
+GetMAE:	152.523	GetRMSE:	192.948	GetCC	:0.767592	GetCV	:48556.8
+worst powers:
+dPowerSample2Est:0dPowerSample2Sap:19.8
+0	0	19.8	-52.3614	207.261	-748.014	584.136	-52.3614	167.359	213.559	0.723346	48907.2	0.678773	72183.1	
+best powers:
+dPowerSample2Est:0dPowerSample2Sap:4
+0	0	4	-3.43176	193.123	-706.913	638.595	-3.43176	152.523	192.948	0.767592	48556.8	0.845625	59863.3	
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:470
+		MAE = 152.523		NRMSE = 0.643412		RMSE = 192.948	CR = 0.767592
+		152.523		0.643412		192.948	0.767592
+------------------Optimization Ends!--------current time: 2020/02/02, 16:50:35,	
+processed time:1.91667(Mins)
+
+DIDW-LG 
+optimal D-D powers
+3.2
+15.7
+3.3
+4.4
+4.7
+5
+5.2
+3.9
+4.1
+4
+
+// DIDW-LG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents
+
+3.2
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:37:11
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_10%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D1_3.2
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	3.2
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	3.2	92.7424	243.817	-645.97	1015.81	92.7424	193.621	260.632	0.583369	41512.6	0	113568	
+
+Number of estimates:	500	MeanS2S_DisVariance:	2.91088	MeanS2S_DisMean:	12.7726
+score:	454.253	dPowerS-U:	0	dPowerS-S:	3.2
+Error_Variance:	243.817	GetMTE:92.7424	Error_Min:	-645.97	Error_Max:	1015.81
+GetMAE:	193.621	GetRMSE:	260.632	GetCC	:0.583369	GetCV	:41512.6
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:500
+		MAE = 193.621		NRMSE = 0.986621		RMSE = 260.632	CR = 0.583369
+		193.621		0.986621		260.632	0.583369
+------------------Optimization Ends!--------current time: 2020/02/02, 20:37:11,	
+processed time:0(Mins)
+
+
+15.7
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:38:04
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_20%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D2_15.7
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	15.7
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	15.7	29.0091	207.144	-597.3	690.96	29.0091	156.376	209.012	0.650022	39134.8	0	101615	
+
+Number of estimates:	673	MeanS2S_DisVariance:	6.46747	MeanS2S_DisMean:	14.3795
+score:	365.389	dPowerS-U:	0	dPowerS-S:	15.7
+Error_Variance:	207.144	GetMTE:29.0091	Error_Min:	-597.3	Error_Max:	690.96
+GetMAE:	156.376	GetRMSE:	209.012	GetCC	:0.650022	GetCV	:39134.8
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:673
+		MAE = 156.376		NRMSE = 0.806433		RMSE = 209.012	CR = 0.650022
+		156.376		0.806433		209.012	0.650022
+------------------Optimization Ends!--------current time: 2020/02/02, 20:38:04,	
+processed time:0(Mins)
+
+
+3.3
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:38:47
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_30%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D3_3.3
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	3.3
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	3.3	42.3837	195.628	-597.3	682.13	42.3837	151.241	200.032	0.667244	36468.9	0.910794	87814.4	
+
+Number of estimates:	707	MeanS2S_DisVariance:	8.59999	MeanS2S_DisMean:	15.4804
+score:	351.272	dPowerS-U:	0	dPowerS-S:	3.3
+Error_Variance:	195.628	GetMTE:42.3837	Error_Min:	-597.3	Error_Max:	682.13
+GetMAE:	151.241	GetRMSE:	200.032	GetCC	:0.667244	GetCV	:36468.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:707
+		MAE = 151.241		NRMSE = 0.780124		RMSE = 200.032	CR = 0.667244
+		151.241		0.780124		200.032	0.667244
+------------------Optimization Ends!--------current time: 2020/02/02, 20:38:47,	
+processed time:0(Mins)
+
+
+4.4
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:39:33
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_40%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D4_4.4
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	4.4
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4.4	19.4581	184.72	-586.07	682.13	19.4581	140.671	185.619	0.692701	36048.2	0.897774	81015.5	
+
+Number of estimates:	750	MeanS2S_DisVariance:	9.68637	MeanS2S_DisMean:	16.1964
+score:	326.291	dPowerS-U:	0	dPowerS-S:	4.4
+Error_Variance:	184.72	GetMTE:19.4581	Error_Min:	-586.07	Error_Max:	682.13
+GetMAE:	140.671	GetRMSE:	185.619	GetCC	:0.692701	GetCV	:36048.2
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:750
+		MAE = 140.671		NRMSE = 0.735693		RMSE = 185.619	CR = 0.692701
+		140.671		0.735693		185.619	0.692701
+------------------Optimization Ends!--------current time: 2020/02/02, 20:39:33,	
+processed time:0(Mins)
+
+
+4.7
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:40:02
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_50%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D5_4.7
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	4.7
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4.7	14.5016	168.854	-529.97	557.34	14.5016	127.125	169.365	0.744361	38244.1	0.887232	74753.7	
+
+Number of estimates:	763	MeanS2S_DisVariance:	10.8232	MeanS2S_DisMean:	16.892
+score:	296.49	dPowerS-U:	0	dPowerS-S:	4.7
+Error_Variance:	168.854	GetMTE:14.5016	Error_Min:	-529.97	Error_Max:	557.34
+GetMAE:	127.125	GetRMSE:	169.365	GetCC	:0.744361	GetCV	:38244.1
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 127.125		NRMSE = 0.673345		RMSE = 169.365	CR = 0.744361
+		127.125		0.673345		169.365	0.744361
+------------------Optimization Ends!--------current time: 2020/02/02, 20:40:02,	
+processed time:0(Mins)
+
+
+5
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:40:35
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_60%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D6_5
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	5
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	5	9.32758	163.516	-524.39	557.34	9.32758	123.359	163.674	0.760602	38168	0.880417	71261.2	
+
+Number of estimates:	763	MeanS2S_DisVariance:	11.2888	MeanS2S_DisMean:	17.0962
+score:	287.033	dPowerS-U:	0	dPowerS-S:	5
+Error_Variance:	163.516	GetMTE:9.32758	Error_Min:	-524.39	Error_Max:	557.34
+GetMAE:	123.359	GetRMSE:	163.674	GetCC	:0.760602	GetCV	:38168
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:763
+		MAE = 123.359		NRMSE = 0.650719		RMSE = 163.674	CR = 0.760602
+		123.359		0.650719		163.674	0.760602
+------------------Optimization Ends!--------current time: 2020/02/02, 20:40:35,	
+processed time:0(Mins)
+
+
+5.2
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:41:09
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_70%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D7_5.2
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	5.2
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	5.2	0.779235	156	-453.514	560.979	0.779235	117.178	155.902	0.783485	38067.1	0.884866	66710.3	
+
+Number of estimates:	776	MeanS2S_DisVariance:	12.0909	MeanS2S_DisMean:	17.7978
+score:	273.08	dPowerS-U:	0	dPowerS-S:	5.2
+Error_Variance:	156	GetMTE:0.779235	Error_Min:	-453.514	Error_Max:	560.979
+GetMAE:	117.178	GetRMSE:	155.902	GetCC	:0.783485	GetCV	:38067.1
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:776
+		MAE = 117.178		NRMSE = 0.621121		RMSE = 155.902	CR = 0.783485
+		117.178		0.621121		155.902	0.783485
+------------------Optimization Ends!--------current time: 2020/02/02, 20:41:10,	
+processed time:0.0166667(Mins)
+
+
+3.9
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:41:37
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_80%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D8_3.9
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	3.9
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	3.9	5.7907	153.473	-445.615	567.089	5.7907	116.637	153.483	0.791275	38299.7	0.905141	63230.8	
+
+Number of estimates:	777	MeanS2S_DisVariance:	12.5738	MeanS2S_DisMean:	18.1635
+score:	270.12	dPowerS-U:	0	dPowerS-S:	3.9
+Error_Variance:	153.473	GetMTE:5.7907	Error_Min:	-445.615	Error_Max:	567.089
+GetMAE:	116.637	GetRMSE:	153.483	GetCC	:0.791275	GetCV	:38299.7
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:777
+		MAE = 116.637		NRMSE = 0.611865		RMSE = 153.483	CR = 0.791275
+		116.637		0.611865		153.483	0.791275
+------------------Optimization Ends!--------current time: 2020/02/02, 20:41:37,	
+processed time:0(Mins)
+
+
+4.1
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:42:07
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_90%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D9_4.1
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	4.1
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4.1	3.19171	149.334	-436.712	582.42	3.19171	113.725	149.273	0.803736	38715.9	0.904422	60711.8	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.7346	MeanS2S_DisMean:	18.6302
+score:	262.998	dPowerS-U:	0	dPowerS-S:	4.1
+Error_Variance:	149.334	GetMTE:3.19171	Error_Min:	-436.712	Error_Max:	582.42
+GetMAE:	113.725	GetRMSE:	149.273	GetCC	:0.803736	GetCV	:38715.9
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 113.725		NRMSE = 0.595791		RMSE = 149.273	CR = 0.803736
+		113.725		0.595791		149.273	0.803736
+------------------Optimization Ends!--------current time: 2020/02/02, 20:42:08,	
+processed time:0.0166667(Mins)
+
+
+4
+++++++++++++++++++Optimization Begins!++++++++current time: 2020/02/02, 20:42:42
+
+Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
+sim_data = GV_WALKER_780_BLOCK.V_DIDW-LG_EST_D10_4
+
+bUsePower_D2E_AS_D2D = 	0
+OptType_G = 	0,0	OptType_L = 	1,0
+dPowerSample2Est = 	0	dPowerSample2Sap = 	4
+bUseAnisotropicDistance = 	0
+bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+0	0	4	-1.6621	145.58	-488.76	578.494	-1.6621	109.651	145.496	0.814945	39495	0.904173	58055.2	
+
+Number of estimates:	780	MeanS2S_DisVariance:	12.9084	MeanS2S_DisMean:	18.8262
+score:	255.147	dPowerS-U:	0	dPowerS-S:	4
+Error_Variance:	145.58	GetMTE:-1.6621	Error_Min:	-488.76	Error_Max:	578.494
+GetMAE:	109.651	GetRMSE:	145.496	GetCC	:0.814945	GetCV	:39495
+Global Opt
+DIDW	 interpolation accuracy (the reference property is V):
+		 number of estimates:780
+		MAE = 109.651		NRMSE = 0.580717		RMSE = 145.496	CR = 0.814945
+		109.651		0.580717		145.496	0.814945
+------------------Optimization Ends!--------current time: 2020/02/02, 20:42:43,	
+processed time:0.0166667(Mins)
 
