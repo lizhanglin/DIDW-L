@@ -1,11 +1,8 @@
-
-++++++++++++++++++Optimization Begins!++++++++current time: 2019/04/20, 10:34:27
-
-Currently used method: harddata_data = GV_WALKER_470_DATA_100%.V
-sim_data = 78000_blocks.V_EST
-
-bUsePower_D2E_AS_D2D = 	1
-OptType_G = 	0,0	OptType_L = 	1,0
-dPowerSample2Est = 	0	dPowerSample2Sap = 	0
-bUseAnisotropicDistance = 	1
-bAnisotropicDistance	 d-u_Power	 d-d_Power	 ErrorMean	 ErrorStdVar	 MinError	 MaxError	 MTE	 MAE	 RMSE	 CC	 CV	 MeanWeightsCR	 MeanKV	
+// DIDW-LL -based SA for multiple sample datasets
+// SDIDW-LL -based SA for multiple sample datasets
+// OK -based SA for multiple sample datasets
+// IDW-L -based SA for multiple sample datasets
+// DIDW-LG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+// DIDW-LG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents
+// DIDW-GG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+// DIDW-GG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents

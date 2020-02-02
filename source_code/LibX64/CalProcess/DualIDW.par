@@ -9,8 +9,9 @@
   <dPowerSample2Est value= "0" />
   <!-- default value of sample-to-sample Power    -->
   <dPowerSample2Sap value= "0" />
+  
   <!-- Is Anisotropic Distance used? 0- NO; 1- YES;  -->
-  <bUseAnisotropicDistance value="1" />
+  <bUseAnisotropicDistance value="0" />
 
   <!-- Global OPT, 1- yes; 0- no; for [D2U_power; D2D_power;] -->
   <nOptType_G value="0 0" />

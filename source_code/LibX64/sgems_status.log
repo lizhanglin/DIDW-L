@@ -778,7 +778,7 @@ Registration done
    |- (pythongroupscript)
 |- PythonScripts
    |- (pythonscript)
-Trying to load plug-in: C:/Users/Administrator/Desktop/source_code/LibX64/plugins/Geostat/DualIDW.ddll...
+Trying to load plug-in: G:/DIDW_L-master/DIDW-L/source_code/LibX64/plugins/Geostat/DualIDW.dll...
 ... OK
 
 |- (directory)
@@ -962,7 +962,7 @@ Trying to load plug-in: C:/Users/Administrator/Desktop/source_code/LibX64/plugin
 |- PythonScripts
    |- (pythonscript)
 Adding algorithm DifferenceWithBase to GUI selector
-Can't find file C:/Users/Administrator/Desktop/source_code/LibX64/plugins/Geostat/DifferenceWithBase.ui
+Can't find file G:/DIDW_L-master/DIDW-L/source_code/LibX64/plugins/Geostat/DifferenceWithBase.ui
 Aborting registration of algorithm DifferenceWithBase
 
 Adding algorithm DualIDW to GUI selector
@@ -972,7 +972,7 @@ Adding algorithm NuTauModel to GUI selector
 Adding algorithm PostKriging to GUI selector
 Adding algorithm Postsim to GUI selector
 Adding algorithm Postsim_categorical to GUI selector
-Can't find file C:/Users/Administrator/Desktop/source_code/LibX64/plugins/Geostat/Postsim_categorical.ui
+Can't find file G:/DIDW_L-master/DIDW-L/source_code/LibX64/plugins/Geostat/Postsim_categorical.ui
 Aborting registration of algorithm Postsim_categorical
 
 Adding algorithm cokriging to GUI selector
@@ -984,7 +984,7 @@ Adding algorithm filtersim_cont to GUI selector
 Adding algorithm indicator_kriging to GUI selector
 Adding algorithm kriging to GUI selector
 Adding algorithm kriging_mean to GUI selector
-Can't find file C:/Users/Administrator/Desktop/source_code/LibX64/plugins/Geostat/kriging_mean.ui
+Can't find file G:/DIDW_L-master/DIDW-L/source_code/LibX64/plugins/Geostat/kriging_mean.ui
 Aborting registration of algorithm kriging_mean
 
 Adding algorithm moving_window to GUI selector

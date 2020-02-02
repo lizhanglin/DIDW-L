@@ -1,0 +1,12 @@
+LoadProject  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_10%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_100%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_20%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_30%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_40%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_50%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_60%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_70%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_80%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_470_DATA_90%.grid::All
+LoadObjectFromFile  E:/AutoVarioModeling_W/Example_files/AutoVarioModelingW_GV_WALKER.prj/GV_WALKER_780_DATA.grid::All

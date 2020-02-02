@@ -46,3 +46,6 @@
 
 *.out
 *.app
+
+# Temporary data
+.__sgems_*
