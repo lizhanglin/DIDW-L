@@ -1,0 +1,18 @@
+<!DOCTYPE gridGeometry>
+<Grid type="Point_set" name="GV_WALKER_470_DATA_100%">
+ <Geometry size="470"/>
+ <Properties>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%.sgems" type="Continuous" name="LG-DIDW_100%"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_AbsError.sgems" type="Continuous" name="LG-DIDW_100%_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_PowerS2S.sgems" type="Continuous" name="LG-DIDW_100%_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_PowerS2U.sgems" type="Continuous" name="LG-DIDW_100%_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_100%_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_100%_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_SampNum.sgems" type="Continuous" name="LG-DIDW_100%_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_TrueError.sgems" type="Continuous" name="LG-DIDW_100%_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_100%_krig_var.sgems" type="Continuous" name="LG-DIDW_100%_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__V.sgems" type="Continuous" name="V"/>
+ </Properties>
+ <Regions/>
+ <PropertyGroups/>
+</Grid>

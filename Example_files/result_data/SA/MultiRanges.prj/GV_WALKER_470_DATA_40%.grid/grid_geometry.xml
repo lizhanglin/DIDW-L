@@ -1,0 +1,9 @@
+<!DOCTYPE gridGeometry>
+<Grid type="Point_set" name="GV_WALKER_470_DATA_40%">
+ <Geometry size="188"/>
+ <Properties>
+  <GsTLGridProperty filepath="properties/property__V.sgems" type="Continuous" name="V"/>
+ </Properties>
+ <Regions/>
+ <PropertyGroups/>
+</Grid>

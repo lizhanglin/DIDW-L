@@ -1,0 +1,459 @@
+<!DOCTYPE gridGeometry>
+<Grid type="Cgrid" name="GV_WALKER_780_BLOCK">
+ <Geometry dx="10" dy="10" dz="1" ox="5" oy="5" nx="26" oz="0" ny="30" nz="1"/>
+ <Properties>
+  <GsTLGridProperty filepath="properties/property__DIDW_22.sgems" type="Continuous" name="DIDW_22"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_AbsError.sgems" type="Continuous" name="DIDW_22_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_PowerS2S.sgems" type="Continuous" name="DIDW_22_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_PowerS2U.sgems" type="Continuous" name="DIDW_22_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_S2sDisMean.sgems" type="Continuous" name="DIDW_22_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_S2sDisVar.sgems" type="Continuous" name="DIDW_22_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_SampNum.sgems" type="Continuous" name="DIDW_22_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_TrueError.sgems" type="Continuous" name="DIDW_22_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_22_krig_var.sgems" type="Continuous" name="DIDW_22_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256.sgems" type="Continuous" name="DIDW_256"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_AbsError.sgems" type="Continuous" name="DIDW_256_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_PowerS2S.sgems" type="Continuous" name="DIDW_256_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_PowerS2U.sgems" type="Continuous" name="DIDW_256_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_S2sDisMean.sgems" type="Continuous" name="DIDW_256_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_S2sDisVar.sgems" type="Continuous" name="DIDW_256_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_SampNum.sgems" type="Continuous" name="DIDW_256_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_TrueError.sgems" type="Continuous" name="DIDW_256_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_256_krig_var.sgems" type="Continuous" name="DIDW_256_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274.sgems" type="Continuous" name="DIDW_274"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_AbsError.sgems" type="Continuous" name="DIDW_274_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_PowerS2S.sgems" type="Continuous" name="DIDW_274_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_PowerS2U.sgems" type="Continuous" name="DIDW_274_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_S2sDisMean.sgems" type="Continuous" name="DIDW_274_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_S2sDisVar.sgems" type="Continuous" name="DIDW_274_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_SampNum.sgems" type="Continuous" name="DIDW_274_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_TrueError.sgems" type="Continuous" name="DIDW_274_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_274_krig_var.sgems" type="Continuous" name="DIDW_274_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292.sgems" type="Continuous" name="DIDW_292"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_AbsError.sgems" type="Continuous" name="DIDW_292_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_PowerS2S.sgems" type="Continuous" name="DIDW_292_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_PowerS2U.sgems" type="Continuous" name="DIDW_292_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_S2sDisMean.sgems" type="Continuous" name="DIDW_292_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_S2sDisVar.sgems" type="Continuous" name="DIDW_292_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_SampNum.sgems" type="Continuous" name="DIDW_292_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_TrueError.sgems" type="Continuous" name="DIDW_292_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_292_krig_var.sgems" type="Continuous" name="DIDW_292_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310.sgems" type="Continuous" name="DIDW_310"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_AbsError.sgems" type="Continuous" name="DIDW_310_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_PowerS2S.sgems" type="Continuous" name="DIDW_310_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_PowerS2U.sgems" type="Continuous" name="DIDW_310_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_S2sDisMean.sgems" type="Continuous" name="DIDW_310_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_S2sDisVar.sgems" type="Continuous" name="DIDW_310_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_SampNum.sgems" type="Continuous" name="DIDW_310_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_TrueError.sgems" type="Continuous" name="DIDW_310_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_310_krig_var.sgems" type="Continuous" name="DIDW_310_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328.sgems" type="Continuous" name="DIDW_328"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_AbsError.sgems" type="Continuous" name="DIDW_328_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_PowerS2S.sgems" type="Continuous" name="DIDW_328_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_PowerS2U.sgems" type="Continuous" name="DIDW_328_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_S2sDisMean.sgems" type="Continuous" name="DIDW_328_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_S2sDisVar.sgems" type="Continuous" name="DIDW_328_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_SampNum.sgems" type="Continuous" name="DIDW_328_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_TrueError.sgems" type="Continuous" name="DIDW_328_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_328_krig_var.sgems" type="Continuous" name="DIDW_328_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346.sgems" type="Continuous" name="DIDW_346"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_AbsError.sgems" type="Continuous" name="DIDW_346_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_PowerS2S.sgems" type="Continuous" name="DIDW_346_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_PowerS2U.sgems" type="Continuous" name="DIDW_346_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_S2sDisMean.sgems" type="Continuous" name="DIDW_346_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_S2sDisVar.sgems" type="Continuous" name="DIDW_346_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_SampNum.sgems" type="Continuous" name="DIDW_346_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_TrueError.sgems" type="Continuous" name="DIDW_346_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_346_krig_var.sgems" type="Continuous" name="DIDW_346_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4.sgems" type="Continuous" name="DIDW_4"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40.sgems" type="Continuous" name="DIDW_40"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_AbsError.sgems" type="Continuous" name="DIDW_40_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_PowerS2S.sgems" type="Continuous" name="DIDW_40_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_PowerS2U.sgems" type="Continuous" name="DIDW_40_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_S2sDisMean.sgems" type="Continuous" name="DIDW_40_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_S2sDisVar.sgems" type="Continuous" name="DIDW_40_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_SampNum.sgems" type="Continuous" name="DIDW_40_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_TrueError.sgems" type="Continuous" name="DIDW_40_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_40_krig_var.sgems" type="Continuous" name="DIDW_40_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_AbsError.sgems" type="Continuous" name="DIDW_4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_PowerS2S.sgems" type="Continuous" name="DIDW_4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_PowerS2U.sgems" type="Continuous" name="DIDW_4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_S2sDisMean.sgems" type="Continuous" name="DIDW_4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_S2sDisVar.sgems" type="Continuous" name="DIDW_4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_SampNum.sgems" type="Continuous" name="DIDW_4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_TrueError.sgems" type="Continuous" name="DIDW_4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_4_krig_var.sgems" type="Continuous" name="DIDW_4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58.sgems" type="Continuous" name="DIDW_58"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_AbsError.sgems" type="Continuous" name="DIDW_58_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_PowerS2S.sgems" type="Continuous" name="DIDW_58_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_PowerS2U.sgems" type="Continuous" name="DIDW_58_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_S2sDisMean.sgems" type="Continuous" name="DIDW_58_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_S2sDisVar.sgems" type="Continuous" name="DIDW_58_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_SampNum.sgems" type="Continuous" name="DIDW_58_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_TrueError.sgems" type="Continuous" name="DIDW_58_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__DIDW_58_krig_var.sgems" type="Continuous" name="DIDW_58_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22.sgems" type="Continuous" name="IDW_22"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_AbsError.sgems" type="Continuous" name="IDW_22_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_PowerS2S.sgems" type="Continuous" name="IDW_22_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_PowerS2U.sgems" type="Continuous" name="IDW_22_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_S2sDisMean.sgems" type="Continuous" name="IDW_22_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_S2sDisVar.sgems" type="Continuous" name="IDW_22_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_SampNum.sgems" type="Continuous" name="IDW_22_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_TrueError.sgems" type="Continuous" name="IDW_22_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_22_krig_var.sgems" type="Continuous" name="IDW_22_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256.sgems" type="Continuous" name="IDW_256"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_AbsError.sgems" type="Continuous" name="IDW_256_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_PowerS2S.sgems" type="Continuous" name="IDW_256_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_PowerS2U.sgems" type="Continuous" name="IDW_256_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_S2sDisMean.sgems" type="Continuous" name="IDW_256_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_S2sDisVar.sgems" type="Continuous" name="IDW_256_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_SampNum.sgems" type="Continuous" name="IDW_256_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_TrueError.sgems" type="Continuous" name="IDW_256_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_256_krig_var.sgems" type="Continuous" name="IDW_256_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274.sgems" type="Continuous" name="IDW_274"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_AbsError.sgems" type="Continuous" name="IDW_274_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_PowerS2S.sgems" type="Continuous" name="IDW_274_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_PowerS2U.sgems" type="Continuous" name="IDW_274_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_S2sDisMean.sgems" type="Continuous" name="IDW_274_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_S2sDisVar.sgems" type="Continuous" name="IDW_274_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_SampNum.sgems" type="Continuous" name="IDW_274_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_TrueError.sgems" type="Continuous" name="IDW_274_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_274_krig_var.sgems" type="Continuous" name="IDW_274_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292.sgems" type="Continuous" name="IDW_292"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_AbsError.sgems" type="Continuous" name="IDW_292_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_PowerS2S.sgems" type="Continuous" name="IDW_292_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_PowerS2U.sgems" type="Continuous" name="IDW_292_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_S2sDisMean.sgems" type="Continuous" name="IDW_292_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_S2sDisVar.sgems" type="Continuous" name="IDW_292_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_SampNum.sgems" type="Continuous" name="IDW_292_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_TrueError.sgems" type="Continuous" name="IDW_292_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_292_krig_var.sgems" type="Continuous" name="IDW_292_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310.sgems" type="Continuous" name="IDW_310"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_AbsError.sgems" type="Continuous" name="IDW_310_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_PowerS2S.sgems" type="Continuous" name="IDW_310_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_PowerS2U.sgems" type="Continuous" name="IDW_310_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_S2sDisMean.sgems" type="Continuous" name="IDW_310_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_S2sDisVar.sgems" type="Continuous" name="IDW_310_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_SampNum.sgems" type="Continuous" name="IDW_310_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_TrueError.sgems" type="Continuous" name="IDW_310_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_310_krig_var.sgems" type="Continuous" name="IDW_310_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328.sgems" type="Continuous" name="IDW_328"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_AbsError.sgems" type="Continuous" name="IDW_328_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_PowerS2S.sgems" type="Continuous" name="IDW_328_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_PowerS2U.sgems" type="Continuous" name="IDW_328_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_S2sDisMean.sgems" type="Continuous" name="IDW_328_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_S2sDisVar.sgems" type="Continuous" name="IDW_328_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_SampNum.sgems" type="Continuous" name="IDW_328_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_TrueError.sgems" type="Continuous" name="IDW_328_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_328_krig_var.sgems" type="Continuous" name="IDW_328_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346.sgems" type="Continuous" name="IDW_346"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_AbsError.sgems" type="Continuous" name="IDW_346_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_PowerS2S.sgems" type="Continuous" name="IDW_346_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_PowerS2U.sgems" type="Continuous" name="IDW_346_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_S2sDisMean.sgems" type="Continuous" name="IDW_346_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_S2sDisVar.sgems" type="Continuous" name="IDW_346_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_SampNum.sgems" type="Continuous" name="IDW_346_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_TrueError.sgems" type="Continuous" name="IDW_346_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_346_krig_var.sgems" type="Continuous" name="IDW_346_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4.sgems" type="Continuous" name="IDW_4"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40.sgems" type="Continuous" name="IDW_40"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_AbsError.sgems" type="Continuous" name="IDW_40_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_PowerS2S.sgems" type="Continuous" name="IDW_40_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_PowerS2U.sgems" type="Continuous" name="IDW_40_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_S2sDisMean.sgems" type="Continuous" name="IDW_40_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_S2sDisVar.sgems" type="Continuous" name="IDW_40_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_SampNum.sgems" type="Continuous" name="IDW_40_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_TrueError.sgems" type="Continuous" name="IDW_40_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_40_krig_var.sgems" type="Continuous" name="IDW_40_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_AbsError.sgems" type="Continuous" name="IDW_4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_PowerS2S.sgems" type="Continuous" name="IDW_4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_PowerS2U.sgems" type="Continuous" name="IDW_4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_S2sDisMean.sgems" type="Continuous" name="IDW_4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_S2sDisVar.sgems" type="Continuous" name="IDW_4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_SampNum.sgems" type="Continuous" name="IDW_4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_TrueError.sgems" type="Continuous" name="IDW_4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_4_krig_var.sgems" type="Continuous" name="IDW_4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58.sgems" type="Continuous" name="IDW_58"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_AbsError.sgems" type="Continuous" name="IDW_58_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_PowerS2S.sgems" type="Continuous" name="IDW_58_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_PowerS2U.sgems" type="Continuous" name="IDW_58_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_S2sDisMean.sgems" type="Continuous" name="IDW_58_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_S2sDisVar.sgems" type="Continuous" name="IDW_58_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_SampNum.sgems" type="Continuous" name="IDW_58_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_TrueError.sgems" type="Continuous" name="IDW_58_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__IDW_58_krig_var.sgems" type="Continuous" name="IDW_58_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_22  G = 3.6_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_22  G = 3.6_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_256 G = 3.9_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_256 G = 3.9_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_274 G = 4.5_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_274 G = 4.5_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_292 G = 3.7_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_292 G = 3.7_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_310 G = 3.7_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_310 G = 3.7_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_328 G = 3.9_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_328 G = 3.9_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_346 G = 4_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_346 G = 4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_4   G = 4_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_4   G = 4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_40  G = 4.1_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_40  G = 4.1_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_AbsError.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_PowerS2S.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_PowerS2U.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_S2sDisMean.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_S2sDisVar.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_SampNum.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_TrueError.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__LG-DIDW_Angle_58  G = 4_krig_var.sgems" type="Continuous" name="LG-DIDW_Angle_58  G = 4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_22.sgems" type="Continuous" name="OK_22"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_AbsError.sgems" type="Continuous" name="OK_22_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_PowerS2S.sgems" type="Continuous" name="OK_22_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_PowerS2U.sgems" type="Continuous" name="OK_22_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_S2sDisMean.sgems" type="Continuous" name="OK_22_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_S2sDisVar.sgems" type="Continuous" name="OK_22_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_SampNum.sgems" type="Continuous" name="OK_22_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_TrueError.sgems" type="Continuous" name="OK_22_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_22_krig_var.sgems" type="Continuous" name="OK_22_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_256.sgems" type="Continuous" name="OK_256"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_AbsError.sgems" type="Continuous" name="OK_256_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_PowerS2S.sgems" type="Continuous" name="OK_256_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_PowerS2U.sgems" type="Continuous" name="OK_256_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_S2sDisMean.sgems" type="Continuous" name="OK_256_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_S2sDisVar.sgems" type="Continuous" name="OK_256_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_SampNum.sgems" type="Continuous" name="OK_256_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_TrueError.sgems" type="Continuous" name="OK_256_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_256_krig_var.sgems" type="Continuous" name="OK_256_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_274.sgems" type="Continuous" name="OK_274"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_AbsError.sgems" type="Continuous" name="OK_274_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_PowerS2S.sgems" type="Continuous" name="OK_274_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_PowerS2U.sgems" type="Continuous" name="OK_274_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_S2sDisMean.sgems" type="Continuous" name="OK_274_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_S2sDisVar.sgems" type="Continuous" name="OK_274_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_SampNum.sgems" type="Continuous" name="OK_274_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_TrueError.sgems" type="Continuous" name="OK_274_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_274_krig_var.sgems" type="Continuous" name="OK_274_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_292.sgems" type="Continuous" name="OK_292"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_AbsError.sgems" type="Continuous" name="OK_292_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_PowerS2S.sgems" type="Continuous" name="OK_292_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_PowerS2U.sgems" type="Continuous" name="OK_292_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_S2sDisMean.sgems" type="Continuous" name="OK_292_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_S2sDisVar.sgems" type="Continuous" name="OK_292_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_SampNum.sgems" type="Continuous" name="OK_292_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_TrueError.sgems" type="Continuous" name="OK_292_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_292_krig_var.sgems" type="Continuous" name="OK_292_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_310.sgems" type="Continuous" name="OK_310"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_AbsError.sgems" type="Continuous" name="OK_310_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_PowerS2S.sgems" type="Continuous" name="OK_310_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_PowerS2U.sgems" type="Continuous" name="OK_310_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_S2sDisMean.sgems" type="Continuous" name="OK_310_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_S2sDisVar.sgems" type="Continuous" name="OK_310_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_SampNum.sgems" type="Continuous" name="OK_310_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_TrueError.sgems" type="Continuous" name="OK_310_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_310_krig_var.sgems" type="Continuous" name="OK_310_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_328.sgems" type="Continuous" name="OK_328"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_AbsError.sgems" type="Continuous" name="OK_328_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_PowerS2S.sgems" type="Continuous" name="OK_328_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_PowerS2U.sgems" type="Continuous" name="OK_328_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_S2sDisMean.sgems" type="Continuous" name="OK_328_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_S2sDisVar.sgems" type="Continuous" name="OK_328_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_SampNum.sgems" type="Continuous" name="OK_328_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_TrueError.sgems" type="Continuous" name="OK_328_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_328_krig_var.sgems" type="Continuous" name="OK_328_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_346.sgems" type="Continuous" name="OK_346"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_AbsError.sgems" type="Continuous" name="OK_346_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_PowerS2S.sgems" type="Continuous" name="OK_346_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_PowerS2U.sgems" type="Continuous" name="OK_346_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_S2sDisMean.sgems" type="Continuous" name="OK_346_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_S2sDisVar.sgems" type="Continuous" name="OK_346_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_SampNum.sgems" type="Continuous" name="OK_346_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_TrueError.sgems" type="Continuous" name="OK_346_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_346_krig_var.sgems" type="Continuous" name="OK_346_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_4.sgems" type="Continuous" name="OK_4"/>
+  <GsTLGridProperty filepath="properties/property__OK_40.sgems" type="Continuous" name="OK_40"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_AbsError.sgems" type="Continuous" name="OK_40_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_PowerS2S.sgems" type="Continuous" name="OK_40_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_PowerS2U.sgems" type="Continuous" name="OK_40_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_S2sDisMean.sgems" type="Continuous" name="OK_40_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_S2sDisVar.sgems" type="Continuous" name="OK_40_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_SampNum.sgems" type="Continuous" name="OK_40_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_TrueError.sgems" type="Continuous" name="OK_40_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_40_krig_var.sgems" type="Continuous" name="OK_40_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_AbsError.sgems" type="Continuous" name="OK_4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_PowerS2S.sgems" type="Continuous" name="OK_4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_PowerS2U.sgems" type="Continuous" name="OK_4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_S2sDisMean.sgems" type="Continuous" name="OK_4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_S2sDisVar.sgems" type="Continuous" name="OK_4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_SampNum.sgems" type="Continuous" name="OK_4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_TrueError.sgems" type="Continuous" name="OK_4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_4_krig_var.sgems" type="Continuous" name="OK_4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__OK_58.sgems" type="Continuous" name="OK_58"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_AbsError.sgems" type="Continuous" name="OK_58_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_PowerS2S.sgems" type="Continuous" name="OK_58_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_PowerS2U.sgems" type="Continuous" name="OK_58_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_S2sDisMean.sgems" type="Continuous" name="OK_58_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_S2sDisVar.sgems" type="Continuous" name="OK_58_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_SampNum.sgems" type="Continuous" name="OK_58_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_TrueError.sgems" type="Continuous" name="OK_58_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__OK_58_krig_var.sgems" type="Continuous" name="OK_58_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22.sgems" type="Continuous" name="SDIDW_22"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_AbsError.sgems" type="Continuous" name="SDIDW_22_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_PowerS2S.sgems" type="Continuous" name="SDIDW_22_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_PowerS2U.sgems" type="Continuous" name="SDIDW_22_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_S2sDisMean.sgems" type="Continuous" name="SDIDW_22_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_S2sDisVar.sgems" type="Continuous" name="SDIDW_22_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_SampNum.sgems" type="Continuous" name="SDIDW_22_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_TrueError.sgems" type="Continuous" name="SDIDW_22_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_22_krig_var.sgems" type="Continuous" name="SDIDW_22_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256.sgems" type="Continuous" name="SDIDW_256"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_AbsError.sgems" type="Continuous" name="SDIDW_256_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_PowerS2S.sgems" type="Continuous" name="SDIDW_256_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_PowerS2U.sgems" type="Continuous" name="SDIDW_256_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_S2sDisMean.sgems" type="Continuous" name="SDIDW_256_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_S2sDisVar.sgems" type="Continuous" name="SDIDW_256_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_SampNum.sgems" type="Continuous" name="SDIDW_256_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_TrueError.sgems" type="Continuous" name="SDIDW_256_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_256_krig_var.sgems" type="Continuous" name="SDIDW_256_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274.sgems" type="Continuous" name="SDIDW_274"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_AbsError.sgems" type="Continuous" name="SDIDW_274_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_PowerS2S.sgems" type="Continuous" name="SDIDW_274_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_PowerS2U.sgems" type="Continuous" name="SDIDW_274_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_S2sDisMean.sgems" type="Continuous" name="SDIDW_274_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_S2sDisVar.sgems" type="Continuous" name="SDIDW_274_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_SampNum.sgems" type="Continuous" name="SDIDW_274_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_TrueError.sgems" type="Continuous" name="SDIDW_274_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_274_krig_var.sgems" type="Continuous" name="SDIDW_274_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292.sgems" type="Continuous" name="SDIDW_292"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_AbsError.sgems" type="Continuous" name="SDIDW_292_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_PowerS2S.sgems" type="Continuous" name="SDIDW_292_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_PowerS2U.sgems" type="Continuous" name="SDIDW_292_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_S2sDisMean.sgems" type="Continuous" name="SDIDW_292_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_S2sDisVar.sgems" type="Continuous" name="SDIDW_292_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_SampNum.sgems" type="Continuous" name="SDIDW_292_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_TrueError.sgems" type="Continuous" name="SDIDW_292_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_292_krig_var.sgems" type="Continuous" name="SDIDW_292_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310.sgems" type="Continuous" name="SDIDW_310"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_AbsError.sgems" type="Continuous" name="SDIDW_310_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_PowerS2S.sgems" type="Continuous" name="SDIDW_310_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_PowerS2U.sgems" type="Continuous" name="SDIDW_310_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_S2sDisMean.sgems" type="Continuous" name="SDIDW_310_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_S2sDisVar.sgems" type="Continuous" name="SDIDW_310_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_SampNum.sgems" type="Continuous" name="SDIDW_310_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_TrueError.sgems" type="Continuous" name="SDIDW_310_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_310_krig_var.sgems" type="Continuous" name="SDIDW_310_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328.sgems" type="Continuous" name="SDIDW_328"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_AbsError.sgems" type="Continuous" name="SDIDW_328_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_PowerS2S.sgems" type="Continuous" name="SDIDW_328_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_PowerS2U.sgems" type="Continuous" name="SDIDW_328_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_S2sDisMean.sgems" type="Continuous" name="SDIDW_328_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_S2sDisVar.sgems" type="Continuous" name="SDIDW_328_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_SampNum.sgems" type="Continuous" name="SDIDW_328_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_TrueError.sgems" type="Continuous" name="SDIDW_328_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_328_krig_var.sgems" type="Continuous" name="SDIDW_328_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346.sgems" type="Continuous" name="SDIDW_346"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_AbsError.sgems" type="Continuous" name="SDIDW_346_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_PowerS2S.sgems" type="Continuous" name="SDIDW_346_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_PowerS2U.sgems" type="Continuous" name="SDIDW_346_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_S2sDisMean.sgems" type="Continuous" name="SDIDW_346_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_S2sDisVar.sgems" type="Continuous" name="SDIDW_346_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_SampNum.sgems" type="Continuous" name="SDIDW_346_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_TrueError.sgems" type="Continuous" name="SDIDW_346_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_346_krig_var.sgems" type="Continuous" name="SDIDW_346_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4.sgems" type="Continuous" name="SDIDW_4"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40.sgems" type="Continuous" name="SDIDW_40"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_AbsError.sgems" type="Continuous" name="SDIDW_40_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_PowerS2S.sgems" type="Continuous" name="SDIDW_40_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_PowerS2U.sgems" type="Continuous" name="SDIDW_40_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_S2sDisMean.sgems" type="Continuous" name="SDIDW_40_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_S2sDisVar.sgems" type="Continuous" name="SDIDW_40_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_SampNum.sgems" type="Continuous" name="SDIDW_40_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_TrueError.sgems" type="Continuous" name="SDIDW_40_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_40_krig_var.sgems" type="Continuous" name="SDIDW_40_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_AbsError.sgems" type="Continuous" name="SDIDW_4_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_PowerS2S.sgems" type="Continuous" name="SDIDW_4_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_PowerS2U.sgems" type="Continuous" name="SDIDW_4_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_S2sDisMean.sgems" type="Continuous" name="SDIDW_4_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_S2sDisVar.sgems" type="Continuous" name="SDIDW_4_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_SampNum.sgems" type="Continuous" name="SDIDW_4_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_TrueError.sgems" type="Continuous" name="SDIDW_4_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_4_krig_var.sgems" type="Continuous" name="SDIDW_4_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58.sgems" type="Continuous" name="SDIDW_58"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_AbsError.sgems" type="Continuous" name="SDIDW_58_AbsError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_PowerS2S.sgems" type="Continuous" name="SDIDW_58_PowerS2S"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_PowerS2U.sgems" type="Continuous" name="SDIDW_58_PowerS2U"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_S2sDisMean.sgems" type="Continuous" name="SDIDW_58_S2sDisMean"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_S2sDisVar.sgems" type="Continuous" name="SDIDW_58_S2sDisVar"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_SampNum.sgems" type="Continuous" name="SDIDW_58_SampNum"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_TrueError.sgems" type="Continuous" name="SDIDW_58_TrueError"/>
+  <GsTLGridProperty filepath="properties/property__SDIDW_58_krig_var.sgems" type="Continuous" name="SDIDW_58_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__V.sgems" type="Continuous" name="V"/>
+ </Properties>
+ <Regions/>
+ <PropertyGroups/>
+</Grid>
