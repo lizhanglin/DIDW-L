@@ -1,0 +1,8 @@
+// DIDW-LL -based SA for multiple sample datasets
+// SDIDW-LL -based SA for multiple sample datasets
+// OK -based SA for multiple sample datasets
+// IDW-L -based SA for multiple sample datasets
+// DIDW-LG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+// DIDW-LG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents
+// DIDW-GG-based SA for multiple sample datasets  1. Cross Validation for optimizing D-D exponents
+// DIDW-GG-based SA for multiple sample datasets  2. Actual interpolation for using optimal D-D exponents

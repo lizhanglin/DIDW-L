@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Action" Collapsed="true">
+    <Position X="55.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertyNoParameterAction" Collapsed="true">
+    <Position X="24" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAACAAAAAAAAAAAAEAAIAAAAQAAAAIAA=</HashCode>
+      <FileName>action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroupNoParameterAction" Collapsed="true">
+    <Position X="48.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAQAAAAAAEAAIAAAAQAAAAIAA=</HashCode>
+      <FileName>action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Run_geostat_algo" Collapsed="true">
+    <Position X="61.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAIQSAAAQAAACAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>algorithms_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Build_categorical_conversion_table" Collapsed="true">
+    <Position X="72.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAAAIACAAAIgAAAAAAAAAIAAAAQAAAAAEA=</HashCode>
+      <FileName>Categorical_conversion_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Conversion_to_sgems_category_in_place" Collapsed="true">
+    <Position X="83.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAQIBCAAASAAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>Categorical_conversion_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Conversion_from_sgems_category_group_in_place" Collapsed="true">
+    <Position X="97.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAAAAAAIBCAAACAAAAACAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>Categorical_conversion_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New_categorical_definition" Collapsed="true">
+    <Position X="106.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAIEAIAAAAQAAAAAAA=</HashCode>
+      <FileName>categorical_definition_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assign_categorical_definition" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAAAAAAAAAIACAAAAAAACAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>categorical_definition_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library_actions_init" Collapsed="true">
+    <Position X="116.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>library_actions_init.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Create_mgrid_from_cgrid" Collapsed="true">
+    <Position X="52.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAAIACIAAAAAACAAAAAAJAgAAQAAAAAAA=</HashCode>
+      <FileName>maskedgrid_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Help_action" Collapsed="true">
+    <Position X="63.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAQQAAAAEAA=</HashCode>
+      <FileName>misc_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New_rgrid" Collapsed="true">
+    <Position X="74.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIACAAIAAAACAAAAAAIAQAAYAAAAKBA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New_cartesian_grid_action" Collapsed="true">
+    <Position X="86" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAATAAAAAAABIASAAIAAAACEAAAAAIAQAAQACAAIBg=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Load_object_from_file" Collapsed="true">
+    <Position X="99.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAIACAQgAAAACAAAAAIIAAAAQAABAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Save_geostat_grid" Collapsed="true">
+    <Position X="108.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAIACAAgAIAACAAAAAAIAAAAQAARAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RunScript" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAAAABAAIAAAAABEAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Load_project" Collapsed="true">
+    <Position X="41" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIACAAAAAAACAAAQAAIAAAAQAAAEAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Copy_property" Collapsed="true">
+    <Position X="54.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACAAIAKAAAAAAASAAACAAIAAAAQAQAAgAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Swap_property_to_disk" Collapsed="true">
+    <Position X="65.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAIACAAAAAAACAAAAAAIIAAAQAAAAACA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Swap_property_to_ram" Collapsed="true">
+    <Position X="77" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAIACAAAAAAACAABAAAIAAAIQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delete_objects" Collapsed="true">
+    <Position X="88.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAQAAAAIACAAAAAAACAAQAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delete_properties" Collapsed="true">
+    <Position X="101.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAQAAAAIACAAAAAAACAAAAAAJAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clear_property_value_if" Collapsed="true">
+    <Position X="110.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAQAAAACAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Set_active_region" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAIAAAAAAAAAAAAEAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delete_regions" Collapsed="true">
+    <Position X="43.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAIQAAAAAAAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Set_hard_data" Collapsed="true">
+    <Position X="56.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgCAIAAAAAAAAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Set_region_from_property" Collapsed="true">
+    <Position X="68" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAIAAAAAAMAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Set_region_from_categorical_property" Collapsed="true">
+    <Position X="79.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAAAAAAAAAAAIAAAAQAAAEAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Merge_regions" Collapsed="true">
+    <Position X="91.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAAAAAAEAAYCAAAAAAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Merge_regions_union" Collapsed="true">
+    <Position X="90.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAIAAAAAAAQAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Merge_regions_intersection" Collapsed="true">
+    <Position X="92.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAQAAAABAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Set_region_complement" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIgAAAAAAAAAAAAAAAIAAAARAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clear_property_value_from_property" Collapsed="true">
+    <Position X="45.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAEAQAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Create_trend" Collapsed="true">
+    <Position X="59" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAACAAAIACACAAAAAAAEDAAAIEAAAQQAAAAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Create_indicator_properties" Collapsed="true">
+    <Position X="70.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEBIAAAAAAAIgCACAAAAACAAAAgAIAAAAQAAACAAA=</HashCode>
+      <FileName>obj_manag_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New_property_group" Collapsed="true">
+    <Position X="81.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACACAAAIAAAAAAAAAAAAAAAAIAAAAQAAAQAAA=</HashCode>
+      <FileName>property_group_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Add_properties_to_group" Collapsed="true">
+    <Position X="95" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCAAIAAAAAAAAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>property_group_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Remove_properties_from_group" Collapsed="true">
+    <Position X="104" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAQAAAIACA=</HashCode>
+      <FileName>property_group_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delete_property_in_group" Collapsed="true">
+    <Position X="50" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAABAAAAAAAAAAIgAAAQAAAAAAA=</HashCode>
+      <FileName>property_group_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Remove_group" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAIAAAAAAABAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>property_group_actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Python_group_script" Collapsed="true">
+    <Position X="116.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAIAAAAAEAAAAAAgAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>python_group_script.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Python_script" Collapsed="true">
+    <Position X="115" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAIAAAAAEAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>python_script.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Python_project_wrapper" Collapsed="true">
+    <Position X="113.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAIABAgAAAAAQCAAAAAQAAA=</HashCode>
+      <FileName>python_wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Python_cout_channel" Collapsed="true">
+    <Position X="115" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>python_wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Python_cerr_channel" Collapsed="true">
+    <Position X="113.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>python_wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GsTLAppli_Python_cout" Collapsed="true">
+    <Position X="115" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>python_wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GsTLAppli_Python_cerr" Collapsed="true">
+    <Position X="113.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>python_wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unary_action" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAAAAAAAACAAAAIAAGAAAEAAIAAIAQAAEAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exponential_transform_action" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAABAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log10_transform_action" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAIgAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log_transform_action" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Power10_transform_action" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAFAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sqrt_transform_action" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAQAAEAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inverse_transform_action" Collapsed="true">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sine_transform_action" Collapsed="true">
+    <Position X="38.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAIAAAAACAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cosine_transform_action" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAIAAAAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Complement_transform_action" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAEBAAAAIAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logit_transform_action" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAIAAAAAAAAAAAAAEAAAAAACAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Square_transform_action" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAMAAAAAAABAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic_transform_action" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAEAAAABAAAAABAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Standardize_transform_action" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAIAAAgAAAAAIAAAEACIAAAAAAAAAAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unit_scaling_transform_action" Collapsed="true">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEABAAAAAAIAAAAAAAAAAAAAEAAIAAAAAAAAIAAA=</HashCode>
+      <FileName>unary_action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
