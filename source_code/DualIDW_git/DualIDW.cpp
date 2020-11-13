@@ -1,15 +1,14 @@
 //!-----------------------------------------------------------------------
 //!
 //! This is a SGeMS (the Stanford Geostatistical Modeling Software) plug-in, which implements 
-//! a dual inverse distance weighting (DIDW) interpolation. 
+//! a dual inverse distance weighting (DIDW) interpolation considering LVEs. 
 
 //! This file may be distributed and/or modified under the terms of the
 //! GNU General Public License version 2 as published by the Free Software
 //! Foundation and appearing in the file LICENSE.GPL included in the
 //! packaging of this file.
 
-//! Title of Paper Submitted: 
-//	Dual inverse distance weighting interpolation using locally varying exponents
+
 //
 //
 //
