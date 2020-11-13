@@ -1,6 +1,6 @@
 
 This is a SGeMS (the Stanford Geostatistical Modeling Software) plug-in, which implements 
-a dual inverse distance weighting (DIDW) interpolation. 
+a dual inverse distance weighting (DIDW) interpolation considering LVEs. 
 
 All programs are writen in c++.
  
