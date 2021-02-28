@@ -12,7 +12,7 @@
   </property>
   <property name="windowTitle">
    <string>category=Simulation
-description=sequential gaussian simulation with LVA</string>
+description=GK SGS with LVA by GAs</string>
   </property>
   <property name="whatsThis">
    <string/>
@@ -21,7 +21,7 @@ description=sequential gaussian simulation with LVA</string>
    <string>Simulation</string>
   </property>
   <property name="AlgorithmDescription" stdset="0">
-   <string>Sequential Gaussian Simulation with LVA</string>
+   <string>GK SGS with LVA by GAs</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_6">
    <item>
