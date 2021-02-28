@@ -1,0 +1,20 @@
+<parameters>  <algorithm name="dual_kriging" /> 
+  <Variogram  nugget="0" structures_count="1"  >
+  <structure_1  contribution="1"  type="Gaussian"   >
+    <ranges max="150"  medium="150"  min="0"   />
+    <angles x="0"  y="0"  z="0"   />
+  </structure_1>
+</Variogram>
+  <Grid_Name value="GV_WALKER_780_BLOCK" region=""  /> 
+  <Property_Name  value="V_DualUK_local_Gaussian" /> 
+  <Kriging_Type  type="Kriging with Trend (KT)" >
+  <parameters trend="1 1 0 0 0 0 0 0 0 " />
+</Kriging_Type>
+  <Hard_Data  grid="GV_WALKER_470_DATA_100%" region="" property="V"  /> 
+  <UseGlobalSearch  value="1"  /> 
+  <Min_Conditioning_Data  value="1" /> 
+  <Max_Conditioning_Data  value="200" /> 
+  <Search_Ellipsoid  value="25.001 25.001 25
+0 0 0" />
+  <AdvancedSearch  use_advanced_search="0"></AdvancedSearch>
+</parameters> 

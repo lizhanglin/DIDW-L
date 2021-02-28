@@ -1,0 +1,17 @@
+<parameters>  <algorithm name="rbf_inter" /> 
+  <Kernel_type  value="Gaussian_Variogram"  /> 
+  <kernel_fun_constant  value="150" /> 
+  <smooth_factor  value="0.0" /> 
+  <bWithLowOrderPolynomialTerm  value="1"  /> 
+  <Grid_Name value="GV_WALKER_780_BLOCK" region=""  /> 
+  <Property_Name  value="V_RBF_Gaussian" /> 
+  <Hard_Data  grid="GV_WALKER_470_DATA_100%" region="" property="V"  /> 
+  <UseGlobalSearch  value="1"  /> 
+  <Min_Conditioning_Data  value="1" /> 
+  <Max_Conditioning_Data  value="200" /> 
+  <Search_Ellipsoid  value="25.001 25.001 25
+0 0 0" />
+  <AdvancedSearch  use_advanced_search="1"
+ use_selected_region ="0"
+ use_octant_search ="0"></AdvancedSearch>
+</parameters> 

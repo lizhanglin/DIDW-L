@@ -1,0 +1,19 @@
+<parameters>  <algorithm name="kriging" /> 
+  <Variogram  nugget="0" structures_count="1"  >
+  <structure_1  contribution="1"  type="Gaussian"   >
+    <ranges max="150"  medium="150"  min="0"   />
+    <angles x="0"  y="0"  z="0"   />
+  </structure_1>
+</Variogram>
+  <Grid_Name value="GV_WALKER_780_BLOCK" region=""  /> 
+  <Property_Name  value="V_KT_gaussian" /> 
+  <Kriging_Type  type="Kriging with Trend (KT)" >
+  <parameters trend="1 1 0 0 0 0 0 0 0 " />
+</Kriging_Type>
+  <Hard_Data  grid="GV_WALKER_470_DATA_100%" region="" property="V"  /> 
+  <Min_Conditioning_Data  value="1" /> 
+  <Max_Conditioning_Data  value="2000" /> 
+  <Search_Ellipsoid  value="999 999 25
+0 0 0" />
+  <AdvancedSearch  use_advanced_search="0"></AdvancedSearch>
+</parameters> 

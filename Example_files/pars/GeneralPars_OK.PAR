@@ -1,4 +1,4 @@
-<parameters>  <algorithm name="kriging" />  
+<parameters>  <algorithm name="kriging" /> 
   <Variogram  nugget="22000" structures_count="2"  >
   <structure_1  contribution="40000"  type="Spherical"   >
     <ranges max="30"  medium="25"  min="0"   />
@@ -10,7 +10,7 @@
   </structure_2>
 </Variogram>
   <Grid_Name value="GV_WALKER_780_BLOCK" region=""  /> 
-  <Property_Name  value="V_EST" /> 
+  <Property_Name  value="V_OK" /> 
   <Kriging_Type  type="Ordinary Kriging (OK)" >
   <parameters />
 </Kriging_Type>
